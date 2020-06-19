@@ -85,7 +85,7 @@ tags
 *.o
 *.ko
 *.obj
-*.elf
+#*.elf
 
 # Precompiled Headers
 *.gch
@@ -116,12 +116,12 @@ tags
 *.su
 
 # PlatformIO files/dirs
-.pio*
-.pioenvs
-.piolibdeps
-.clang_complete
-.gcc-flags.json
-/lib/
+#.pio*
+#.pioenvs
+#.piolibdeps
+#.clang_complete
+#.gcc-flags.json
+#/lib/
 
 # Workaround for Deviot+platformio quirks
 Marlin/lib
