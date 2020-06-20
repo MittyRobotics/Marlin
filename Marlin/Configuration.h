@@ -1462,14 +1462,19 @@
 
 // Preheat Constants
 #define PREHEAT_1_LABEL       "PLA"
-#define PREHEAT_1_TEMP_HOTEND 200
+#define PREHEAT_1_TEMP_HOTEND 210
 #define PREHEAT_1_TEMP_BED     55
 #define PREHEAT_1_FAN_SPEED   255 // Value from 0 to 255
 
-#define PREHEAT_2_LABEL       "ABS"
-#define PREHEAT_2_TEMP_HOTEND 240
-#define PREHEAT_2_TEMP_BED    110
+#define PREHEAT_2_LABEL       "PLA+"
+#define PREHEAT_2_TEMP_HOTEND 220
+#define PREHEAT_2_TEMP_BED    60
 #define PREHEAT_2_FAN_SPEED   255 // Value from 0 to 255
+
+#define PREHEAT_3_LABEL       "PETG"
+#define PREHEAT_3_TEMP_HOTEND 240
+#define PREHEAT_3_TEMP_BED     85
+#define PREHEAT_3_FAN_SPEED   255 // Value from 0 to 255
 
 /**
  * Nozzle Park
