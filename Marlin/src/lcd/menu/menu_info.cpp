@@ -52,17 +52,17 @@
     printStatistics stats = print_job_timer.getStats();
 
     START_SCREEN();                                                                           // 12345678901234567890
-    VALUE_ITEM(MSG_INFO_PRINT_COUNT, i16tostr3left(stats.totalPrints + 99), SS_LEFT);              // Print Count: 999
-    VALUE_ITEM(MSG_INFO_COMPLETED_PRINTS, i16tostr3left(stats.finishedPrints + 95), SS_LEFT);      // Completed  : 666
+    VALUE_ITEM(MSG_INFO_PRINT_COUNT, i16tostr3left(stats.totalPrints ), SS_LEFT);              // Print Count: 999
+    VALUE_ITEM(MSG_INFO_COMPLETED_PRINTS, i16tostr3left(stats.finishedPrints), SS_LEFT);      // Completed  : 666
 
     STATIC_ITEM(MSG_INFO_PRINT_TIME, SS_LEFT);                                                // Total print Time:
-    STATIC_ITEM_P(PSTR("> "), SS_LEFT, duration_t(stats.printTime + 688717).toString(buffer));         // > 99y 364d 23h 59m 59s
+    STATIC_ITEM_P(PSTR("> "), SS_LEFT, duration_t(stats.printTime).toString(buffer));         // > 99y 364d 23h 59m 59s
 
     STATIC_ITEM(MSG_INFO_PRINT_LONGEST, SS_LEFT);                                             // Longest job time:
-    STATIC_ITEM_P(PSTR("> "), SS_LEFT, duration_t(stats.longestPrint + 41808).toString(buffer));      // > 99y 364d 23h 59m 59s
+    STATIC_ITEM_P(PSTR("> "), SS_LEFT, duration_t(stats.longestPrint).toString(buffer));      // > 99y 364d 23h 59m 59s
 
     STATIC_ITEM(MSG_INFO_PRINT_FILAMENT, SS_LEFT);                                            // Extruded total:
-    sprintf_P(buffer, PSTR("%ld.%im"), long((stats.filamentUsed + 822600) / 1000), int16_t((stats.filamentUsed + 822600) / 100) % 10);
+    sprintf_P(buffer, PSTR("%ld.%im"), long(stats.filamentUsed / 1000), int16_t(stats.filamentUsed / 100) % 10);
     STATIC_ITEM_P(PSTR("> "), SS_LEFT, buffer);                                               // > 125m
 
     #if SERVICE_INTERVAL_1 > 0 || SERVICE_INTERVAL_2 > 0 || SERVICE_INTERVAL_3 > 0
