@@ -107,8 +107,8 @@
  Marlin\src\lcd\menu\game\../../../sd/Sd2Card.h \
  Marlin\src\lcd\menu\game\../../../sd/SdInfo.h \
  Marlin\src\lcd\menu\game\../../../sd/SdFatStructs.h \
- Marlin\src\lcd\menu\game\invaders.h Marlin\src\lcd\menu\game\types.h \
- Marlin\src\lcd\menu\game\snake.h
+ Marlin\src\lcd\menu\game\brickout.h Marlin\src\lcd\menu\game\types.h \
+ Marlin\src\lcd\menu\game\invaders.h Marlin\src\lcd\menu\game\snake.h
 
 Marlin\src\lcd\menu\game\../../../inc/MarlinConfigPre.h:
 
@@ -324,8 +324,10 @@ Marlin\src\lcd\menu\game\../../../sd/SdInfo.h:
 
 Marlin\src\lcd\menu\game\../../../sd/SdFatStructs.h:
 
-Marlin\src\lcd\menu\game\invaders.h:
+Marlin\src\lcd\menu\game\brickout.h:
 
 Marlin\src\lcd\menu\game\types.h:
+
+Marlin\src\lcd\menu\game\invaders.h:
 
 Marlin\src\lcd\menu\game\snake.h:

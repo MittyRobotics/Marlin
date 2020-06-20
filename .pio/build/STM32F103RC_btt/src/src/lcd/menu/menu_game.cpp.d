@@ -107,8 +107,8 @@
  Marlin\src\lcd\menu\game/game.h \
  Marlin\src\lcd\menu\game/../../dogm/ultralcd_DOGM.h \
  Marlin\src\lcd\menu\game/../../dogm/HAL_LCD_class_defines.h \
- Marlin\src\lcd\menu\game/invaders.h Marlin\src\lcd\menu\game/types.h \
- Marlin\src\lcd\menu\game/snake.h
+ Marlin\src\lcd\menu\game/brickout.h Marlin\src\lcd\menu\game/types.h \
+ Marlin\src\lcd\menu\game/invaders.h Marlin\src\lcd\menu\game/snake.h
 
 Marlin\src\lcd\menu\../../inc/MarlinConfigPre.h:
 
@@ -328,8 +328,10 @@ Marlin\src\lcd\menu\game/../../dogm/ultralcd_DOGM.h:
 
 Marlin\src\lcd\menu\game/../../dogm/HAL_LCD_class_defines.h:
 
-Marlin\src\lcd\menu\game/invaders.h:
+Marlin\src\lcd\menu\game/brickout.h:
 
 Marlin\src\lcd\menu\game/types.h:
+
+Marlin\src\lcd\menu\game/invaders.h:
 
 Marlin\src\lcd\menu\game/snake.h:
