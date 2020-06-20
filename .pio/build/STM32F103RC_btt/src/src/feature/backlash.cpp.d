@@ -10,8 +10,7 @@
  Marlin\src\feature\../inc/../HAL/STM32F1/inc/Conditionals_LCD.h \
  Marlin\src\feature\../inc/../core/drivers.h \
  Marlin\src\feature\../inc/../../Configuration_adv.h \
- Marlin\src\feature\../inc/Conditionals_adv.h \
- Marlin\src\feature\../inc/../HAL/STM32F1/inc/Conditionals_adv.h
+ Marlin\src\feature\../inc/Conditionals_adv.h
 
 Marlin\src\feature\../inc/MarlinConfigPre.h:
 
@@ -34,5 +33,3 @@ Marlin\src\feature\../inc/../core/drivers.h:
 Marlin\src\feature\../inc/../../Configuration_adv.h:
 
 Marlin\src\feature\../inc/Conditionals_adv.h:
-
-Marlin\src\feature\../inc/../HAL/STM32F1/inc/Conditionals_adv.h:

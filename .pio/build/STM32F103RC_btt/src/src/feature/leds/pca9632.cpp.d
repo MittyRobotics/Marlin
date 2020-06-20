@@ -12,7 +12,6 @@
  Marlin\src\feature\leds\../../inc/../core/drivers.h \
  Marlin\src\feature\leds\../../inc/../../Configuration_adv.h \
  Marlin\src\feature\leds\../../inc/Conditionals_adv.h \
- Marlin\src\feature\leds\../../inc/../HAL/STM32F1/inc/Conditionals_adv.h \
  Marlin\src\feature\leds\../../inc/../HAL/HAL.h \
  Marlin\src\feature\leds\../../inc/../HAL/./STM32F1/HAL.h \
  Marlin\src\feature\leds\../../inc/../HAL/./STM32F1/../shared/Marduino.h \
@@ -111,8 +110,6 @@ Marlin\src\feature\leds\../../inc/../core/drivers.h:
 Marlin\src\feature\leds\../../inc/../../Configuration_adv.h:
 
 Marlin\src\feature\leds\../../inc/Conditionals_adv.h:
-
-Marlin\src\feature\leds\../../inc/../HAL/STM32F1/inc/Conditionals_adv.h:
 
 Marlin\src\feature\leds\../../inc/../HAL/HAL.h:
 

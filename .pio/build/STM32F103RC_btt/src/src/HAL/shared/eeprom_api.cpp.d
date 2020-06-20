@@ -11,7 +11,6 @@
  Marlin\src\HAL\shared\../../inc/../core/drivers.h \
  Marlin\src\HAL\shared\../../inc/../../Configuration_adv.h \
  Marlin\src\HAL\shared\../../inc/Conditionals_adv.h \
- Marlin\src\HAL\shared\../../inc/../HAL/STM32F1/inc/Conditionals_adv.h \
  Marlin\src\HAL\shared\eeprom_api.h \
  Marlin\src\HAL\shared\../../libs/crc16.h
 
@@ -36,8 +35,6 @@ Marlin\src\HAL\shared\../../inc/../core/drivers.h:
 Marlin\src\HAL\shared\../../inc/../../Configuration_adv.h:
 
 Marlin\src\HAL\shared\../../inc/Conditionals_adv.h:
-
-Marlin\src\HAL\shared\../../inc/../HAL/STM32F1/inc/Conditionals_adv.h:
 
 Marlin\src\HAL\shared\eeprom_api.h:
 

@@ -12,7 +12,6 @@
  Marlin\src\module\stepper\../../inc/../core/drivers.h \
  Marlin\src\module\stepper\../../inc/../../Configuration_adv.h \
  Marlin\src\module\stepper\../../inc/Conditionals_adv.h \
- Marlin\src\module\stepper\../../inc/../HAL/STM32F1/inc/Conditionals_adv.h \
  Marlin\src\module\stepper\../../inc/../HAL/HAL.h \
  Marlin\src\module\stepper\../../inc/../HAL/./STM32F1/HAL.h \
  Marlin\src\module\stepper\../../inc/../HAL/./STM32F1/../shared/Marduino.h \
@@ -156,8 +155,6 @@ Marlin\src\module\stepper\../../inc/../core/drivers.h:
 Marlin\src\module\stepper\../../inc/../../Configuration_adv.h:
 
 Marlin\src\module\stepper\../../inc/Conditionals_adv.h:
-
-Marlin\src\module\stepper\../../inc/../HAL/STM32F1/inc/Conditionals_adv.h:
 
 Marlin\src\module\stepper\../../inc/../HAL/HAL.h:
 

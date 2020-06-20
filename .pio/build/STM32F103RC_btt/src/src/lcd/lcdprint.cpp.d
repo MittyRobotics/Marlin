@@ -8,10 +8,8 @@
  Marlin\src\lcd\../inc/../HAL/STM32F1/inc/Conditionals_LCD.h \
  Marlin\src\lcd\../inc/../core/drivers.h \
  Marlin\src\lcd\../inc/../../Configuration_adv.h \
- Marlin\src\lcd\../inc/Conditionals_adv.h \
- Marlin\src\lcd\../inc/../HAL/STM32F1/inc/Conditionals_adv.h \
- Marlin\src\lcd\lcdprint.h Marlin\src\lcd\fontutils.h \
- Marlin\src\lcd\../HAL/shared/Marduino.h \
+ Marlin\src\lcd\../inc/Conditionals_adv.h Marlin\src\lcd\lcdprint.h \
+ Marlin\src\lcd\fontutils.h Marlin\src\lcd\../HAL/shared/Marduino.h \
  C:\Users\vedan\.platformio\packages\framework-arduinoststm32-maple\STM32F1\cores\maple/Arduino.h \
  C:\Users\vedan\.platformio\packages\framework-arduinoststm32-maple\STM32F1\cores\maple/wirish.h \
  C:\Users\vedan\.platformio\packages\framework-arduinoststm32-maple\STM32F1\cores\maple/WString.h \
@@ -111,8 +109,6 @@ Marlin\src\lcd\../inc/../core/drivers.h:
 Marlin\src\lcd\../inc/../../Configuration_adv.h:
 
 Marlin\src\lcd\../inc/Conditionals_adv.h:
-
-Marlin\src\lcd\../inc/../HAL/STM32F1/inc/Conditionals_adv.h:
 
 Marlin\src\lcd\lcdprint.h:
 

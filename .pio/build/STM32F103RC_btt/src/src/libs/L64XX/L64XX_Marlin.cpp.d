@@ -12,7 +12,6 @@
  Marlin\src\libs\L64XX\../../inc/../core/drivers.h \
  Marlin\src\libs\L64XX\../../inc/../../Configuration_adv.h \
  Marlin\src\libs\L64XX\../../inc/Conditionals_adv.h \
- Marlin\src\libs\L64XX\../../inc/../HAL/STM32F1/inc/Conditionals_adv.h \
  Marlin\src\libs\L64XX\../../inc/../HAL/HAL.h \
  Marlin\src\libs\L64XX\../../inc/../HAL/./STM32F1/HAL.h \
  Marlin\src\libs\L64XX\../../inc/../HAL/./STM32F1/../shared/Marduino.h \
@@ -111,8 +110,6 @@ Marlin\src\libs\L64XX\../../inc/../core/drivers.h:
 Marlin\src\libs\L64XX\../../inc/../../Configuration_adv.h:
 
 Marlin\src\libs\L64XX\../../inc/Conditionals_adv.h:
-
-Marlin\src\libs\L64XX\../../inc/../HAL/STM32F1/inc/Conditionals_adv.h:
 
 Marlin\src\libs\L64XX\../../inc/../HAL/HAL.h:
 

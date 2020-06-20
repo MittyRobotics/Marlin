@@ -12,7 +12,6 @@
  Marlin\src\module\../inc/../core/drivers.h \
  Marlin\src\module\../inc/../../Configuration_adv.h \
  Marlin\src\module\../inc/Conditionals_adv.h \
- Marlin\src\module\../inc/../HAL/STM32F1/inc/Conditionals_adv.h \
  Marlin\src\module\../inc/../HAL/HAL.h \
  Marlin\src\module\../inc/../HAL/./STM32F1/HAL.h \
  Marlin\src\module\../inc/../HAL/./STM32F1/../shared/Marduino.h \
@@ -117,8 +116,6 @@ Marlin\src\module\../inc/../core/drivers.h:
 Marlin\src\module\../inc/../../Configuration_adv.h:
 
 Marlin\src\module\../inc/Conditionals_adv.h:
-
-Marlin\src\module\../inc/../HAL/STM32F1/inc/Conditionals_adv.h:
 
 Marlin\src\module\../inc/../HAL/HAL.h:
 

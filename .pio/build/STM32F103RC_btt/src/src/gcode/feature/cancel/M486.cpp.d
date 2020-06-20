@@ -12,7 +12,6 @@
  Marlin\src\gcode\feature\cancel\../../../inc/../core/drivers.h \
  Marlin\src\gcode\feature\cancel\../../../inc/../../Configuration_adv.h \
  Marlin\src\gcode\feature\cancel\../../../inc/Conditionals_adv.h \
- Marlin\src\gcode\feature\cancel\../../../inc/../HAL/STM32F1/inc/Conditionals_adv.h \
  Marlin\src\gcode\feature\cancel\../../../inc/../HAL/HAL.h \
  Marlin\src\gcode\feature\cancel\../../../inc/../HAL/./STM32F1/HAL.h \
  Marlin\src\gcode\feature\cancel\../../../inc/../HAL/./STM32F1/../shared/Marduino.h \
@@ -111,8 +110,6 @@ Marlin\src\gcode\feature\cancel\../../../inc/../core/drivers.h:
 Marlin\src\gcode\feature\cancel\../../../inc/../../Configuration_adv.h:
 
 Marlin\src\gcode\feature\cancel\../../../inc/Conditionals_adv.h:
-
-Marlin\src\gcode\feature\cancel\../../../inc/../HAL/STM32F1/inc/Conditionals_adv.h:
 
 Marlin\src\gcode\feature\cancel\../../../inc/../HAL/HAL.h:
 

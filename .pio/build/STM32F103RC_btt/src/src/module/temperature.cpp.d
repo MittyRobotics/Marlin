@@ -13,7 +13,6 @@
  Marlin\src\module\thermistor/../../inc/../core/drivers.h \
  Marlin\src\module\thermistor/../../inc/../../Configuration_adv.h \
  Marlin\src\module\thermistor/../../inc/Conditionals_adv.h \
- Marlin\src\module\thermistor/../../inc/../HAL/STM32F1/inc/Conditionals_adv.h \
  Marlin\src\module\thermistor/../../inc/../HAL/HAL.h \
  Marlin\src\module\thermistor/../../inc/../HAL/./STM32F1/HAL.h \
  Marlin\src\module\thermistor/../../inc/../HAL/./STM32F1/../shared/Marduino.h \
@@ -140,8 +139,6 @@ Marlin\src\module\thermistor/../../inc/../core/drivers.h:
 Marlin\src\module\thermistor/../../inc/../../Configuration_adv.h:
 
 Marlin\src\module\thermistor/../../inc/Conditionals_adv.h:
-
-Marlin\src\module\thermistor/../../inc/../HAL/STM32F1/inc/Conditionals_adv.h:
 
 Marlin\src\module\thermistor/../../inc/../HAL/HAL.h:
 

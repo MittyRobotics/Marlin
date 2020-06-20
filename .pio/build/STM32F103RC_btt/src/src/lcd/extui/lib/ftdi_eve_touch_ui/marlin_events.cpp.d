@@ -14,7 +14,6 @@
  Marlin\src\lcd\extui\lib\ftdi_eve_touch_ui\../../../../inc/../core/drivers.h \
  c:\users\vedan\downloads\3d\ printing\firmware\marlin\marlin\configuration_adv.h \
  Marlin\src\lcd\extui\lib\ftdi_eve_touch_ui\../../../../inc/Conditionals_adv.h \
- Marlin\src\lcd\extui\lib\ftdi_eve_touch_ui\../../../../inc/../HAL/STM32F1/inc/Conditionals_adv.h \
  Marlin\src\lcd\extui\lib\ftdi_eve_touch_ui\../../../../inc/../HAL/HAL.h \
  Marlin\src\lcd\extui\lib\ftdi_eve_touch_ui\../../../../inc/../HAL/./STM32F1/HAL.h \
  c:\users\vedan\downloads\3d\ printing\firmware\marlin\marlin\src\hal\shared\marduino.h \
@@ -118,8 +117,6 @@ Marlin\src\lcd\extui\lib\ftdi_eve_touch_ui\../../../../inc/../core/drivers.h:
 c:\users\vedan\downloads\3d\ printing\firmware\marlin\marlin\configuration_adv.h:
 
 Marlin\src\lcd\extui\lib\ftdi_eve_touch_ui\../../../../inc/Conditionals_adv.h:
-
-Marlin\src\lcd\extui\lib\ftdi_eve_touch_ui\../../../../inc/../HAL/STM32F1/inc/Conditionals_adv.h:
 
 Marlin\src\lcd\extui\lib\ftdi_eve_touch_ui\../../../../inc/../HAL/HAL.h:
 

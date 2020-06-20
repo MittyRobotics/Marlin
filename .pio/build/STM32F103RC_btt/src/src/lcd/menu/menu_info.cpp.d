@@ -11,7 +11,6 @@
  Marlin\src\lcd\menu\../../inc/../core/drivers.h \
  Marlin\src\lcd\menu\../../inc/../../Configuration_adv.h \
  Marlin\src\lcd\menu\../../inc/Conditionals_adv.h \
- Marlin\src\lcd\menu\../../inc/../HAL/STM32F1/inc/Conditionals_adv.h \
  Marlin\src\lcd\menu\menu.h Marlin\src\lcd\menu\../ultralcd.h \
  Marlin\src\lcd\menu\../../inc/MarlinConfig.h \
  Marlin\src\lcd\menu\../../inc/../HAL/HAL.h \
@@ -105,6 +104,11 @@
  Marlin\src\lcd\menu\../../sd/SdInfo.h \
  Marlin\src\lcd\menu\../../sd/SdFatStructs.h \
  Marlin\src\lcd\menu\../../libs/numtostr.h \
+ Marlin\src\lcd\menu\game/game.h \
+ Marlin\src\lcd\menu\game/../../dogm/ultralcd_DOGM.h \
+ Marlin\src\lcd\menu\game/../../dogm/HAL_LCD_class_defines.h \
+ Marlin\src\lcd\menu\game/invaders.h Marlin\src\lcd\menu\game/types.h \
+ Marlin\src\lcd\menu\game/snake.h \
  Marlin\src\lcd\menu\../../module/printcounter.h \
  Marlin\src\lcd\menu\../../module/../libs/stopwatch.h \
  Marlin\src\lcd\menu\../../module/../libs/duration_t.h \
@@ -131,8 +135,6 @@ Marlin\src\lcd\menu\../../inc/../core/drivers.h:
 Marlin\src\lcd\menu\../../inc/../../Configuration_adv.h:
 
 Marlin\src\lcd\menu\../../inc/Conditionals_adv.h:
-
-Marlin\src\lcd\menu\../../inc/../HAL/STM32F1/inc/Conditionals_adv.h:
 
 Marlin\src\lcd\menu\menu.h:
 
@@ -323,6 +325,18 @@ Marlin\src\lcd\menu\../../sd/SdInfo.h:
 Marlin\src\lcd\menu\../../sd/SdFatStructs.h:
 
 Marlin\src\lcd\menu\../../libs/numtostr.h:
+
+Marlin\src\lcd\menu\game/game.h:
+
+Marlin\src\lcd\menu\game/../../dogm/ultralcd_DOGM.h:
+
+Marlin\src\lcd\menu\game/../../dogm/HAL_LCD_class_defines.h:
+
+Marlin\src\lcd\menu\game/invaders.h:
+
+Marlin\src\lcd\menu\game/types.h:
+
+Marlin\src\lcd\menu\game/snake.h:
 
 Marlin\src\lcd\menu\../../module/printcounter.h:
 

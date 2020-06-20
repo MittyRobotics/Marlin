@@ -17,7 +17,6 @@
  Marlin\src\HAL\shared\backtrace\../../../core/../inc/../core/drivers.h \
  Marlin\src\HAL\shared\backtrace\../../../core/../inc/../../Configuration_adv.h \
  Marlin\src\HAL\shared\backtrace\../../../core/../inc/Conditionals_adv.h \
- Marlin\src\HAL\shared\backtrace\../../../core/../inc/../HAL/STM32F1/inc/Conditionals_adv.h \
  Marlin\src\HAL\shared\backtrace\../../../core/../inc/../HAL/HAL.h \
  Marlin\src\HAL\shared\backtrace\../../../core/../inc/../HAL/./STM32F1/HAL.h \
  c:\users\vedan\downloads\3d\ printing\firmware\marlin\marlin\src\hal\shared\marduino.h \
@@ -125,8 +124,6 @@ Marlin\src\HAL\shared\backtrace\../../../core/../inc/../core/drivers.h:
 Marlin\src\HAL\shared\backtrace\../../../core/../inc/../../Configuration_adv.h:
 
 Marlin\src\HAL\shared\backtrace\../../../core/../inc/Conditionals_adv.h:
-
-Marlin\src\HAL\shared\backtrace\../../../core/../inc/../HAL/STM32F1/inc/Conditionals_adv.h:
 
 Marlin\src\HAL\shared\backtrace\../../../core/../inc/../HAL/HAL.h:
 

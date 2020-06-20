@@ -10,8 +10,7 @@
  Marlin\src\gcode\feature\pause\../../../inc/../HAL/STM32F1/inc/Conditionals_LCD.h \
  Marlin\src\gcode\feature\pause\../../../inc/../core/drivers.h \
  Marlin\src\gcode\feature\pause\../../../inc/../../Configuration_adv.h \
- Marlin\src\gcode\feature\pause\../../../inc/Conditionals_adv.h \
- Marlin\src\gcode\feature\pause\../../../inc/../HAL/STM32F1/inc/Conditionals_adv.h
+ Marlin\src\gcode\feature\pause\../../../inc/Conditionals_adv.h
 
 Marlin\src\gcode\feature\pause\../../../inc/MarlinConfigPre.h:
 
@@ -34,5 +33,3 @@ Marlin\src\gcode\feature\pause\../../../inc/../core/drivers.h:
 Marlin\src\gcode\feature\pause\../../../inc/../../Configuration_adv.h:
 
 Marlin\src\gcode\feature\pause\../../../inc/Conditionals_adv.h:
-
-Marlin\src\gcode\feature\pause\../../../inc/../HAL/STM32F1/inc/Conditionals_adv.h:

@@ -10,8 +10,7 @@
  Marlin\src\sd\usb_flashdrive\../../inc/../HAL/STM32F1/inc/Conditionals_LCD.h \
  Marlin\src\sd\usb_flashdrive\../../inc/../core/drivers.h \
  Marlin\src\sd\usb_flashdrive\../../inc/../../Configuration_adv.h \
- Marlin\src\sd\usb_flashdrive\../../inc/Conditionals_adv.h \
- Marlin\src\sd\usb_flashdrive\../../inc/../HAL/STM32F1/inc/Conditionals_adv.h
+ Marlin\src\sd\usb_flashdrive\../../inc/Conditionals_adv.h
 
 Marlin\src\sd\usb_flashdrive\../../inc/MarlinConfigPre.h:
 
@@ -34,5 +33,3 @@ Marlin\src\sd\usb_flashdrive\../../inc/../core/drivers.h:
 Marlin\src\sd\usb_flashdrive\../../inc/../../Configuration_adv.h:
 
 Marlin\src\sd\usb_flashdrive\../../inc/Conditionals_adv.h:
-
-Marlin\src\sd\usb_flashdrive\../../inc/../HAL/STM32F1/inc/Conditionals_adv.h:

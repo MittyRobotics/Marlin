@@ -12,7 +12,6 @@
  Marlin\src\HAL\STM32F1\dogm\../../../inc/../core/drivers.h \
  Marlin\src\HAL\STM32F1\dogm\../../../inc/../../Configuration_adv.h \
  Marlin\src\HAL\STM32F1\dogm\../../../inc/Conditionals_adv.h \
- Marlin\src\HAL\STM32F1\dogm\../../../inc/../HAL/STM32F1/inc/Conditionals_adv.h \
  Marlin\src\HAL\STM32F1\dogm\../../../inc/../HAL/HAL.h \
  Marlin\src\HAL\STM32F1\dogm\../../../inc/../HAL/./STM32F1/HAL.h \
  Marlin\src\HAL\STM32F1\dogm\../../../inc/../HAL/./STM32F1/../shared/Marduino.h \
@@ -111,8 +110,6 @@ Marlin\src\HAL\STM32F1\dogm\../../../inc/../core/drivers.h:
 Marlin\src\HAL\STM32F1\dogm\../../../inc/../../Configuration_adv.h:
 
 Marlin\src\HAL\STM32F1\dogm\../../../inc/Conditionals_adv.h:
-
-Marlin\src\HAL\STM32F1\dogm\../../../inc/../HAL/STM32F1/inc/Conditionals_adv.h:
 
 Marlin\src\HAL\STM32F1\dogm\../../../inc/../HAL/HAL.h:
 

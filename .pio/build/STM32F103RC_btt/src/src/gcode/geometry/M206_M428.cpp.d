@@ -12,7 +12,6 @@
  Marlin\src\gcode\geometry\../../inc/../core/drivers.h \
  Marlin\src\gcode\geometry\../../inc/../../Configuration_adv.h \
  Marlin\src\gcode\geometry\../../inc/Conditionals_adv.h \
- Marlin\src\gcode\geometry\../../inc/../HAL/STM32F1/inc/Conditionals_adv.h \
  Marlin\src\gcode\geometry\../../inc/../HAL/HAL.h \
  Marlin\src\gcode\geometry\../../inc/../HAL/./STM32F1/HAL.h \
  Marlin\src\gcode\geometry\../../inc/../HAL/./STM32F1/../shared/Marduino.h \
@@ -132,8 +131,6 @@ Marlin\src\gcode\geometry\../../inc/../core/drivers.h:
 Marlin\src\gcode\geometry\../../inc/../../Configuration_adv.h:
 
 Marlin\src\gcode\geometry\../../inc/Conditionals_adv.h:
-
-Marlin\src\gcode\geometry\../../inc/../HAL/STM32F1/inc/Conditionals_adv.h:
 
 Marlin\src\gcode\geometry\../../inc/../HAL/HAL.h:
 

@@ -10,8 +10,7 @@
  Marlin\src\feature\touch\../../inc/../HAL/STM32F1/inc/Conditionals_LCD.h \
  Marlin\src\feature\touch\../../inc/../core/drivers.h \
  Marlin\src\feature\touch\../../inc/../../Configuration_adv.h \
- Marlin\src\feature\touch\../../inc/Conditionals_adv.h \
- Marlin\src\feature\touch\../../inc/../HAL/STM32F1/inc/Conditionals_adv.h
+ Marlin\src\feature\touch\../../inc/Conditionals_adv.h
 
 Marlin\src\feature\touch\../../inc/MarlinConfigPre.h:
 
@@ -34,5 +33,3 @@ Marlin\src\feature\touch\../../inc/../core/drivers.h:
 Marlin\src\feature\touch\../../inc/../../Configuration_adv.h:
 
 Marlin\src\feature\touch\../../inc/Conditionals_adv.h:
-
-Marlin\src\feature\touch\../../inc/../HAL/STM32F1/inc/Conditionals_adv.h:

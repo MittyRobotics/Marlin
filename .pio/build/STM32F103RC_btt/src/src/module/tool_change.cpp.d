@@ -11,7 +11,6 @@
  Marlin\src\module\../inc/../core/drivers.h \
  Marlin\src\module\../inc/../../Configuration_adv.h \
  Marlin\src\module\../inc/Conditionals_adv.h \
- Marlin\src\module\../inc/../HAL/STM32F1/inc/Conditionals_adv.h \
  Marlin\src\module\tool_change.h Marlin\src\module\../core/types.h \
  Marlin\src\module\probe.h Marlin\src\module\../inc/MarlinConfig.h \
  Marlin\src\module\../inc/../HAL/HAL.h \
@@ -132,8 +131,6 @@ Marlin\src\module\../inc/../core/drivers.h:
 Marlin\src\module\../inc/../../Configuration_adv.h:
 
 Marlin\src\module\../inc/Conditionals_adv.h:
-
-Marlin\src\module\../inc/../HAL/STM32F1/inc/Conditionals_adv.h:
 
 Marlin\src\module\tool_change.h:
 

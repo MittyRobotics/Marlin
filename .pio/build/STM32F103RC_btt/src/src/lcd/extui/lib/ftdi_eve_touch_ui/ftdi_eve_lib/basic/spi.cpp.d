@@ -17,7 +17,6 @@
  c:\users\vedan\downloads\3d\ printing\firmware\marlin\marlin\src\core\drivers.h \
  c:\users\vedan\downloads\3d\ printing\firmware\marlin\marlin\configuration_adv.h \
  c:\users\vedan\downloads\3d\ printing\firmware\marlin\marlin\src\inc\Conditionals_adv.h \
- c:\users\vedan\downloads\3d\ printing\firmware\marlin\marlin\src\hal\stm32f1\inc\conditionals_adv.h \
  c:\users\vedan\downloads\3d\ printing\firmware\marlin\marlin\src\hal\hal.h \
  c:\users\vedan\downloads\3d\ printing\firmware\marlin\marlin\src\hal\stm32f1\hal.h \
  c:\users\vedan\downloads\3d\ printing\firmware\marlin\marlin\src\hal\shared\marduino.h \
@@ -127,8 +126,6 @@ c:\users\vedan\downloads\3d\ printing\firmware\marlin\marlin\src\core\drivers.h:
 c:\users\vedan\downloads\3d\ printing\firmware\marlin\marlin\configuration_adv.h:
 
 c:\users\vedan\downloads\3d\ printing\firmware\marlin\marlin\src\inc\Conditionals_adv.h:
-
-c:\users\vedan\downloads\3d\ printing\firmware\marlin\marlin\src\hal\stm32f1\inc\conditionals_adv.h:
 
 c:\users\vedan\downloads\3d\ printing\firmware\marlin\marlin\src\hal\hal.h:
 

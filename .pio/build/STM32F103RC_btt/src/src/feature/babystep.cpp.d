@@ -11,7 +11,6 @@
  Marlin\src\feature\../inc/../core/drivers.h \
  Marlin\src\feature\../inc/../../Configuration_adv.h \
  Marlin\src\feature\../inc/Conditionals_adv.h \
- Marlin\src\feature\../inc/../HAL/STM32F1/inc/Conditionals_adv.h \
  Marlin\src\feature\../inc/../HAL/HAL.h \
  Marlin\src\feature\../inc/../HAL/./STM32F1/HAL.h \
  Marlin\src\feature\../inc/../HAL/./STM32F1/../shared/Marduino.h \
@@ -130,7 +129,8 @@
  Marlin\src\feature\../module/stepper/../../feature/../lcd/../sd/SdVolume.h \
  Marlin\src\feature\../module/stepper/../../feature/../lcd/../sd/Sd2Card.h \
  Marlin\src\feature\../module/stepper/../../feature/../lcd/../sd/SdInfo.h \
- Marlin\src\feature\../module/stepper/../../feature/../lcd/../sd/SdFatStructs.h
+ Marlin\src\feature\../module/stepper/../../feature/../lcd/../sd/SdFatStructs.h \
+ Marlin\src\feature\../gcode/gcode.h Marlin\src\feature\../gcode/parser.h
 
 Marlin\src\feature\../inc/MarlinConfig.h:
 
@@ -155,8 +155,6 @@ Marlin\src\feature\../inc/../core/drivers.h:
 Marlin\src\feature\../inc/../../Configuration_adv.h:
 
 Marlin\src\feature\../inc/Conditionals_adv.h:
-
-Marlin\src\feature\../inc/../HAL/STM32F1/inc/Conditionals_adv.h:
 
 Marlin\src\feature\../inc/../HAL/HAL.h:
 
@@ -397,3 +395,7 @@ Marlin\src\feature\../module/stepper/../../feature/../lcd/../sd/Sd2Card.h:
 Marlin\src\feature\../module/stepper/../../feature/../lcd/../sd/SdInfo.h:
 
 Marlin\src\feature\../module/stepper/../../feature/../lcd/../sd/SdFatStructs.h:
+
+Marlin\src\feature\../gcode/gcode.h:
+
+Marlin\src\feature\../gcode/parser.h:

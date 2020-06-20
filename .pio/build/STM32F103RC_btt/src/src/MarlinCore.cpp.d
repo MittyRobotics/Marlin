@@ -7,9 +7,8 @@
  Marlin\src\inc/../HAL/STM32F1/inc/Conditionals_LCD.h \
  Marlin\src\inc/../core/drivers.h \
  Marlin\src\inc/../../Configuration_adv.h \
- Marlin\src\inc/Conditionals_adv.h \
- Marlin\src\inc/../HAL/STM32F1/inc/Conditionals_adv.h \
- Marlin\src\inc/../HAL/HAL.h Marlin\src\inc/../HAL/./STM32F1/HAL.h \
+ Marlin\src\inc/Conditionals_adv.h Marlin\src\inc/../HAL/HAL.h \
+ Marlin\src\inc/../HAL/./STM32F1/HAL.h \
  Marlin\src\inc/../HAL/./STM32F1/../shared/Marduino.h \
  C:\Users\vedan\.platformio\packages\framework-arduinoststm32-maple\STM32F1\cores\maple/Arduino.h \
  C:\Users\vedan\.platformio\packages\framework-arduinoststm32-maple\STM32F1\cores\maple/wirish.h \
@@ -158,8 +157,6 @@ Marlin\src\inc/../core/drivers.h:
 Marlin\src\inc/../../Configuration_adv.h:
 
 Marlin\src\inc/Conditionals_adv.h:
-
-Marlin\src\inc/../HAL/STM32F1/inc/Conditionals_adv.h:
 
 Marlin\src\inc/../HAL/HAL.h:
 

@@ -11,7 +11,6 @@
  Marlin\src\lcd\menu\../../inc/../core/drivers.h \
  Marlin\src\lcd\menu\../../inc/../../Configuration_adv.h \
  Marlin\src\lcd\menu\../../inc/Conditionals_adv.h \
- Marlin\src\lcd\menu\../../inc/../HAL/STM32F1/inc/Conditionals_adv.h \
  Marlin\src\lcd\menu\menu.h Marlin\src\lcd\menu\../ultralcd.h \
  Marlin\src\lcd\menu\../../inc/MarlinConfig.h \
  Marlin\src\lcd\menu\../../inc/../HAL/HAL.h \
@@ -141,8 +140,6 @@ Marlin\src\lcd\menu\../../inc/../core/drivers.h:
 Marlin\src\lcd\menu\../../inc/../../Configuration_adv.h:
 
 Marlin\src\lcd\menu\../../inc/Conditionals_adv.h:
-
-Marlin\src\lcd\menu\../../inc/../HAL/STM32F1/inc/Conditionals_adv.h:
 
 Marlin\src\lcd\menu\menu.h:
 

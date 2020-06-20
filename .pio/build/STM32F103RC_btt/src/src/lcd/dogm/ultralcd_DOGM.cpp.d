@@ -11,7 +11,6 @@
  Marlin\src\lcd\dogm\../../inc/../core/drivers.h \
  Marlin\src\lcd\dogm\../../inc/../../Configuration_adv.h \
  Marlin\src\lcd\dogm\../../inc/Conditionals_adv.h \
- Marlin\src\lcd\dogm\../../inc/../HAL/STM32F1/inc/Conditionals_adv.h \
  Marlin\src\lcd\dogm\ultralcd_DOGM.h \
  .pio\libdeps\STM32F103RC_btt\U8glib-HAL_ID1932\src/U8glib.h \
  C:\Users\vedan\.platformio\packages\framework-arduinoststm32-maple\STM32F1\cores\maple/Print.h \
@@ -138,8 +137,6 @@ Marlin\src\lcd\dogm\../../inc/../core/drivers.h:
 Marlin\src\lcd\dogm\../../inc/../../Configuration_adv.h:
 
 Marlin\src\lcd\dogm\../../inc/Conditionals_adv.h:
-
-Marlin\src\lcd\dogm\../../inc/../HAL/STM32F1/inc/Conditionals_adv.h:
 
 Marlin\src\lcd\dogm\ultralcd_DOGM.h:
 
