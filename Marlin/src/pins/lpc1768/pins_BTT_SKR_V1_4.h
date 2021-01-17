@@ -43,56 +43,68 @@
 
 //
 // TMC StallGuard DIAG pins
+// Disable this
+// #define X_DIAG_PIN                         P1_29  // X-STOP
+// #define Y_DIAG_PIN                         P1_28  // Y-STOP
+// #define Z_DIAG_PIN                         P1_27  // Z-STOP
+// #define E0_DIAG_PIN                        P1_26  // E0DET
+// #define E1_DIAG_PIN                        P1_25  // E1DET
+
+
 //
-#define X_DIAG_PIN                         P1_29  // X-STOP
-#define Y_DIAG_PIN                         P1_28  // Y-STOP
-#define Z_DIAG_PIN                         P1_27  // Z-STOP
-#define E0_DIAG_PIN                        P1_26  // E0DET
-#define E1_DIAG_PIN                        P1_25  // E1DET
+// Reassign Pins
+//
+
+#define X_MIN_PIN P1_29
+#define X_MAX_PIN P1_26
+#define Y_MIN_PIN P1_28
+#define Y_MAX_PIN P1_25
+#define Z_MIN_PIN P1_00
+#define Z_MAX_PIN P1_27
 
 //
 // Limit Switches
 //
-#ifdef X_STALL_SENSITIVITY
-  #define X_STOP_PIN                  X_DIAG_PIN
-  #if X_HOME_DIR < 0
-    #define X_MAX_PIN                      P1_26  // E0DET
-  #else
-    #define X_MIN_PIN                      P1_26  // E0DET
-  #endif
-#else
-  #define X_STOP_PIN                       P1_29  // X-STOP
-#endif
+// #ifdef X_STALL_SENSITIVITY
+//   #define X_STOP_PIN                  X_DIAG_PIN
+//   #if X_HOME_DIR < 0
+//     #define X_MAX_PIN                      P1_26  // E0DET
+//   #else
+//     #define X_MIN_PIN                      P1_26  // E0DET
+//   #endif
+// #else
+//   #define X_STOP_PIN                       P1_29  // X-STOP
+// #endif
 
-#ifdef Y_STALL_SENSITIVITY
-  #define Y_STOP_PIN                  Y_DIAG_PIN
-  #if Y_HOME_DIR < 0
-    #define Y_MAX_PIN                      P1_25  // E1DET
-  #else
-    #define Y_MIN_PIN                      P1_25  // E1DET
-  #endif
-#else
-  #define Y_STOP_PIN                       P1_28  // Y-STOP
-#endif
+// #ifdef Y_STALL_SENSITIVITY
+//   #define Y_STOP_PIN                  Y_DIAG_PIN
+//   #if Y_HOME_DIR < 0
+//     #define Y_MAX_PIN                      P1_25  // E1DET
+//   #else
+//     #define Y_MIN_PIN                      P1_25  // E1DET
+//   #endif
+// #else
+//   #define Y_STOP_PIN                       P1_28  // Y-STOP
+// #endif
 
-#ifdef Z_STALL_SENSITIVITY
-  #define Z_STOP_PIN                  Z_DIAG_PIN
-  #if Z_HOME_DIR < 0
-    #define Z_MAX_PIN                      P1_00  // PWRDET
-  #else
-    #define Z_MIN_PIN                      P1_00  // PWRDET
-  #endif
-#else
-  #ifndef Z_STOP_PIN
-    #define Z_STOP_PIN                     P1_27  // Z-STOP
-  #endif
-#endif
+// #ifdef Z_STALL_SENSITIVITY
+//   #define Z_STOP_PIN                  Z_DIAG_PIN
+//   #if Z_HOME_DIR < 0
+//     #define Z_MAX_PIN                      P1_00  // PWRDET
+//   #else
+//     #define Z_MIN_PIN                      P1_00  // PWRDET
+//   #endif
+// #else
+//   #ifndef Z_STOP_PIN
+//     #define Z_STOP_PIN                     P1_27  // Z-STOP
+//   #endif
+// #endif
 
 //
 // Z Probe (when not Z_MIN_PIN)
 //
 #ifndef Z_MIN_PROBE_PIN
-  #define Z_MIN_PROBE_PIN                  P0_10
+  #define Z_MIN_PROBE_PIN                  P1_00
 #endif
 
 //
@@ -139,22 +151,29 @@
   #define Z_CS_PIN                         P1_08
 #endif
 
-#define E0_STEP_PIN                        P2_13
-#define E0_DIR_PIN                         P0_11
-#define E0_ENABLE_PIN                      P2_12
+#define E0_STEP_PIN                        P2_05
+#define E0_DIR_PIN                         P2_05
+#define E0_ENABLE_PIN                      P2_05
 #ifndef E0_CS_PIN
-  #define E0_CS_PIN                        P1_04
+  #define E0_CS_PIN                        P2_05
 #endif
 
-#define E1_STEP_PIN                        P1_15
-#define E1_DIR_PIN                         P1_14
-#define E1_ENABLE_PIN                      P1_16
+#define E1_STEP_PIN                        P2_13
+#define E1_DIR_PIN                         P0_11
+#define E1_ENABLE_PIN                      P2_12
 #ifndef E1_CS_PIN
-  #define E1_CS_PIN                        P1_01
+  #define E1_CS_PIN                        P1_04
 #endif
 
-#define TEMP_1_PIN                      P0_23_A0  // A0 (T0) - (67) - TEMP_1_PIN
-#define TEMP_BED_PIN                    P0_25_A2  // A2 (T2) - (69) - TEMP_BED_PIN
+#define E2_STEP_PIN                        P1_15
+#define E2_DIR_PIN                         P1_14
+#define E2_ENABLE_PIN                      P1_16
+#ifndef E2_CS_PIN
+  #define E2_CS_PIN                        P1_01
+#endif
+
+#define TEMP_1_PIN                      P0_23_A0  // A2 (T2) - (69) - TEMP_1_PIN
+#define TEMP_BED_PIN                    P0_25_A2  // A0 (T0) - (67) - TEMP_BED_PIN
 
 //
 // Software SPI pins for TMC2130 stepper drivers
@@ -244,7 +263,7 @@
 // SD Connection
 //
 #if SD_CONNECTION_IS(LCD)
-  #define SD_SS_PIN                 EXPA2_07_PIN
+  #define SD_SS_PIN                 P0_16
 #endif
 
 /**
