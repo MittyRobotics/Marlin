@@ -33,7 +33,7 @@
 // SD Connection
 //
 #ifndef SDCARD_CONNECTION
-  #define SDCARD_CONNECTION LCD
+  #define SDCARD_CONNECTION                LCD
 #endif
 
 //
@@ -139,18 +139,25 @@
   #define Z_CS_PIN                         P1_08
 #endif
 
-#define E0_STEP_PIN                        P2_13
-#define E0_DIR_PIN                         P0_11
-#define E0_ENABLE_PIN                      P2_12
+#define E0_STEP_PIN                        P2_05
+#define E0_DIR_PIN                         P2_05
+#define E0_ENABLE_PIN                      P2_05
 #ifndef E0_CS_PIN
-  #define E0_CS_PIN                        P1_04
+  #define E0_CS_PIN                        P2_05
 #endif
 
-#define E1_STEP_PIN                        P1_15
-#define E1_DIR_PIN                         P1_14
-#define E1_ENABLE_PIN                      P1_16
+#define E1_STEP_PIN                        P2_13
+#define E1_DIR_PIN                         P0_11
+#define E1_ENABLE_PIN                      P2_12
 #ifndef E1_CS_PIN
-  #define E1_CS_PIN                        P1_01
+  #define E1_CS_PIN                        P1_04
+#endif
+
+#define E2_STEP_PIN                        P1_15
+#define E2_DIR_PIN                         P1_14
+#define E2_ENABLE_PIN                      P1_16
+#ifndef E2_CS_PIN
+  #define E2_CS_PIN                        P1_01
 #endif
 
 #define TEMP_1_PIN                      P0_23_A0  // A0 (T0) - (67) - TEMP_1_PIN
@@ -207,6 +214,9 @@
 
   #define E1_SERIAL_TX_PIN                 P1_01
   #define E1_SERIAL_RX_PIN                 P1_01
+
+  #define Z2_SERIAL_TX_PIN                 P1_01
+  #define Z2_SERIAL_RX_PIN                 P1_01
 
   // Reduce baud rate to improve software serial reliability
   #define TMC_BAUD_RATE                    19200
