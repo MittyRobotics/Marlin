@@ -12,7 +12,7 @@
  C:\Users\vedan\.platformio\packages\framework-arduinoststm32-maple\STM32F1\system\libmaple/stm32f1/include/series/rcc.h \
  C:\Users\vedan\.platformio\packages\framework-arduinoststm32-maple\STM32F1\system\libmaple\include/libmaple/bitband.h \
  C:\Users\vedan\.platformio\packages\framework-arduinoststm32-maple\STM32F1\system\libmaple\include/libmaple/i2c.h \
- C:\Users\vedan\.platformio\packages\framework-arduinoststm32-maple\STM32F1\system\libmaple/stm32f1/include/series/i2c.h \
+ C:\Users\vedan\.platformio\packages\framework-arduinoststm32-maple\STM32F1\system\libmaple\stm32f1\include/series/i2c.h \
  C:\Users\vedan\.platformio\packages\framework-arduinoststm32-maple\STM32F1\system\libmaple\include/libmaple/gpio.h \
  C:\Users\vedan\.platformio\packages\framework-arduinoststm32-maple\STM32F1\system\libmaple/stm32f1/include/series/gpio.h \
  C:\Users\vedan\.platformio\packages\framework-arduinoststm32-maple\STM32F1\system\libmaple\include/libmaple/exti.h \
@@ -42,7 +42,7 @@ C:\Users\vedan\.platformio\packages\framework-arduinoststm32-maple\STM32F1\syste
 
 C:\Users\vedan\.platformio\packages\framework-arduinoststm32-maple\STM32F1\system\libmaple\include/libmaple/i2c.h:
 
-C:\Users\vedan\.platformio\packages\framework-arduinoststm32-maple\STM32F1\system\libmaple/stm32f1/include/series/i2c.h:
+C:\Users\vedan\.platformio\packages\framework-arduinoststm32-maple\STM32F1\system\libmaple\stm32f1\include/series/i2c.h:
 
 C:\Users\vedan\.platformio\packages\framework-arduinoststm32-maple\STM32F1\system\libmaple\include/libmaple/gpio.h:
 

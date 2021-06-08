@@ -30,6 +30,7 @@
  C:\Users\vedan\.platformio\packages\framework-arduinoststm32-maple\STM32F1\system\libmaple\include/libmaple/adc.h \
  C:\Users\vedan\.platformio\packages\framework-arduinoststm32-maple\STM32F1\system\libmaple/stm32f1/include/series/adc.h \
  C:\Users\vedan\.platformio\packages\framework-arduinoststm32-maple\STM32F1\variants\generic_stm32f103r/board/board.h \
+ C:\Users\vedan\.platformio\packages\framework-arduinoststm32-maple\STM32F1\system\libmaple\stm32f1\include/series/usart.h \
  C:\Users\vedan\.platformio\packages\framework-arduinoststm32-maple\STM32F1\cores\maple/io.h \
  C:\Users\vedan\.platformio\packages\framework-arduinoststm32-maple\STM32F1\cores\maple/bit_constants.h \
  C:\Users\vedan\.platformio\packages\framework-arduinoststm32-maple\STM32F1\cores\maple/pwm.h \
@@ -54,7 +55,7 @@
  C:\Users\vedan\.platformio\packages\framework-arduinoststm32-maple\STM32F1\cores\maple/wirish.h \
  C:\Users\vedan\.platformio\packages\framework-arduinoststm32-maple\STM32F1\variants\generic_stm32f103r/variant.h \
  C:\Users\vedan\.platformio\packages\framework-arduinoststm32-maple\STM32F1\system\libmaple\include/libmaple/i2c.h \
- C:\Users\vedan\.platformio\packages\framework-arduinoststm32-maple\STM32F1\system\libmaple/stm32f1/include/series/i2c.h \
+ C:\Users\vedan\.platformio\packages\framework-arduinoststm32-maple\STM32F1\system\libmaple\stm32f1\include/series/i2c.h \
  C:\Users\vedan\.platformio\packages\framework-arduinoststm32-maple\STM32F1\system\libmaple\include/libmaple/i2c_common.h
 
 .pio\libdeps\STM32F103RC_btt\U8glib-HAL_ID1932\src\clib\u8g.h:
@@ -117,6 +118,8 @@ C:\Users\vedan\.platformio\packages\framework-arduinoststm32-maple\STM32F1\syste
 
 C:\Users\vedan\.platformio\packages\framework-arduinoststm32-maple\STM32F1\variants\generic_stm32f103r/board/board.h:
 
+C:\Users\vedan\.platformio\packages\framework-arduinoststm32-maple\STM32F1\system\libmaple\stm32f1\include/series/usart.h:
+
 C:\Users\vedan\.platformio\packages\framework-arduinoststm32-maple\STM32F1\cores\maple/io.h:
 
 C:\Users\vedan\.platformio\packages\framework-arduinoststm32-maple\STM32F1\cores\maple/bit_constants.h:
@@ -165,6 +168,6 @@ C:\Users\vedan\.platformio\packages\framework-arduinoststm32-maple\STM32F1\varia
 
 C:\Users\vedan\.platformio\packages\framework-arduinoststm32-maple\STM32F1\system\libmaple\include/libmaple/i2c.h:
 
-C:\Users\vedan\.platformio\packages\framework-arduinoststm32-maple\STM32F1\system\libmaple/stm32f1/include/series/i2c.h:
+C:\Users\vedan\.platformio\packages\framework-arduinoststm32-maple\STM32F1\system\libmaple\stm32f1\include/series/i2c.h:
 
 C:\Users\vedan\.platformio\packages\framework-arduinoststm32-maple\STM32F1\system\libmaple\include/libmaple/i2c_common.h:

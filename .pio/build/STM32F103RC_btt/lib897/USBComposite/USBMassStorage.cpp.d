@@ -23,26 +23,37 @@
  C:\Users\vedan\.platformio\packages\framework-arduinoststm32-maple\STM32F1\system\libmaple\include/libmaple/adc.h \
  C:\Users\vedan\.platformio\packages\framework-arduinoststm32-maple\STM32F1\system\libmaple/stm32f1/include/series/adc.h \
  C:\Users\vedan\.platformio\packages\framework-arduinoststm32-maple\STM32F1\variants\generic_stm32f103r/board/board.h \
+ C:\Users\vedan\.platformio\packages\framework-arduinoststm32-maple\STM32F1\system\libmaple\stm32f1\include/series/usart.h \
  C:\Users\vedan\.platformio\packages\framework-arduinoststm32-maple\STM32F1\cores\maple/Stream.h \
  C:\Users\vedan\.platformio\packages\framework-arduinoststm32-maple\STM32F1\cores\maple/Print.h \
  C:\Users\vedan\.platformio\packages\framework-arduinoststm32-maple\STM32F1\cores\maple/WString.h \
  C:\Users\vedan\.platformio\packages\framework-arduinoststm32-maple\STM32F1\cores\maple/avr/pgmspace.h \
  C:\Users\vedan\.platformio\packages\framework-arduinoststm32-maple\STM32F1\cores\maple/Printable.h \
  C:\Users\vedan\.platformio\packages\framework-arduinoststm32-maple\STM32F1\libraries\USBComposite\usb_generic.h \
- C:\Users\vedan\.platformio\packages\framework-arduinoststm32-maple\STM32F1\system\libmaple\usb\usb_lib/usb_core.h \
  C:\Users\vedan\.platformio\packages\framework-arduinoststm32-maple\STM32F1\system\libmaple\include/libmaple/usb.h \
+ C:\Users\vedan\.platformio\packages\framework-arduinoststm32-maple\STM32F1\system\libmaple\usb\stm32f1/usb_lib_globals.h \
+ C:\Users\vedan\.platformio\packages\framework-arduinoststm32-maple\STM32F1\system\libmaple\usb\usb_lib/usb_type.h \
+ C:\Users\vedan\.platformio\packages\framework-arduinoststm32-maple\STM32F1\system\libmaple\usb\usb_lib/usb_core.h \
+ C:\Users\vedan\.platformio\packages\framework-arduinoststm32-maple\STM32F1\system\libmaple\usb\stm32f1/usb_reg_map.h \
  C:\Users\vedan\.platformio\packages\framework-arduinoststm32-maple\STM32F1\libraries\USBComposite/USBCompositeSerial.h \
  C:\Users\vedan\.platformio\packages\framework-arduinoststm32-maple\STM32F1\libraries\USBComposite/usb_composite_serial.h \
  C:\Users\vedan\.platformio\packages\framework-arduinoststm32-maple\STM32F1\libraries\USBComposite/usb_generic.h \
  C:\Users\vedan\.platformio\packages\framework-arduinoststm32-maple\STM32F1\libraries\USBComposite/USBHID.h \
  C:\Users\vedan\.platformio\packages\framework-arduinoststm32-maple\STM32F1\cores\maple/Print.h \
  C:\Users\vedan\.platformio\packages\framework-arduinoststm32-maple\STM32F1\libraries\USBComposite/usb_hid.h \
- C:\Users\vedan\.platformio\packages\framework-arduinoststm32-maple\STM32F1\libraries\USBComposite/USBXBox360.h \
- C:\Users\vedan\.platformio\packages\framework-arduinoststm32-maple\STM32F1\libraries\USBComposite/USBComposite.h \
  C:\Users\vedan\.platformio\packages\framework-arduinoststm32-maple\STM32F1\libraries\USBComposite/USBMassStorage.h \
+ C:\Users\vedan\.platformio\packages\framework-arduinoststm32-maple\STM32F1\libraries\USBComposite/USBComposite.h \
  C:\Users\vedan\.platformio\packages\framework-arduinoststm32-maple\STM32F1\libraries\USBComposite/usb_mass_mal.h \
  C:\Users\vedan\.platformio\packages\framework-arduinoststm32-maple\STM32F1\libraries\USBComposite/USBMIDI.h \
  C:\Users\vedan\.platformio\packages\framework-arduinoststm32-maple\STM32F1\libraries\USBComposite/USBComposite.h \
+ C:\Users\vedan\.platformio\packages\framework-arduinoststm32-maple\STM32F1\libraries\USBComposite/USBAudio.h \
+ C:\Users\vedan\.platformio\packages\framework-arduinoststm32-maple\STM32F1\libraries\USBComposite/usb_audio.h \
+ C:\Users\vedan\.platformio\packages\framework-arduinoststm32-maple\STM32F1\libraries\USBComposite/USBMultiSerial.h \
+ C:\Users\vedan\.platformio\packages\framework-arduinoststm32-maple\STM32F1\libraries\USBComposite/usb_multi_serial.h \
+ C:\Users\vedan\.platformio\packages\framework-arduinoststm32-maple\STM32F1\libraries\USBComposite/USBXBox360.h \
+ C:\Users\vedan\.platformio\packages\framework-arduinoststm32-maple\STM32F1\libraries\USBComposite/usb_x360_generic.h \
+ C:\Users\vedan\.platformio\packages\framework-arduinoststm32-maple\STM32F1\libraries\USBComposite/usb_x360w.h \
+ C:\Users\vedan\.platformio\packages\framework-arduinoststm32-maple\STM32F1\libraries\USBComposite/usb_multi_x360.h \
  C:\Users\vedan\.platformio\packages\framework-arduinoststm32-maple\STM32F1\libraries\USBComposite\usb_mass.h \
  C:\Users\vedan\.platformio\packages\framework-arduinoststm32-maple\STM32F1\libraries\USBComposite\usb_mass_mal.h \
  C:\Users\vedan\.platformio\packages\framework-arduinoststm32-maple\STM32F1\libraries\USBComposite\usb_composite_serial.h
@@ -93,6 +104,8 @@ C:\Users\vedan\.platformio\packages\framework-arduinoststm32-maple\STM32F1\syste
 
 C:\Users\vedan\.platformio\packages\framework-arduinoststm32-maple\STM32F1\variants\generic_stm32f103r/board/board.h:
 
+C:\Users\vedan\.platformio\packages\framework-arduinoststm32-maple\STM32F1\system\libmaple\stm32f1\include/series/usart.h:
+
 C:\Users\vedan\.platformio\packages\framework-arduinoststm32-maple\STM32F1\cores\maple/Stream.h:
 
 C:\Users\vedan\.platformio\packages\framework-arduinoststm32-maple\STM32F1\cores\maple/Print.h:
@@ -105,9 +118,15 @@ C:\Users\vedan\.platformio\packages\framework-arduinoststm32-maple\STM32F1\cores
 
 C:\Users\vedan\.platformio\packages\framework-arduinoststm32-maple\STM32F1\libraries\USBComposite\usb_generic.h:
 
+C:\Users\vedan\.platformio\packages\framework-arduinoststm32-maple\STM32F1\system\libmaple\include/libmaple/usb.h:
+
+C:\Users\vedan\.platformio\packages\framework-arduinoststm32-maple\STM32F1\system\libmaple\usb\stm32f1/usb_lib_globals.h:
+
+C:\Users\vedan\.platformio\packages\framework-arduinoststm32-maple\STM32F1\system\libmaple\usb\usb_lib/usb_type.h:
+
 C:\Users\vedan\.platformio\packages\framework-arduinoststm32-maple\STM32F1\system\libmaple\usb\usb_lib/usb_core.h:
 
-C:\Users\vedan\.platformio\packages\framework-arduinoststm32-maple\STM32F1\system\libmaple\include/libmaple/usb.h:
+C:\Users\vedan\.platformio\packages\framework-arduinoststm32-maple\STM32F1\system\libmaple\usb\stm32f1/usb_reg_map.h:
 
 C:\Users\vedan\.platformio\packages\framework-arduinoststm32-maple\STM32F1\libraries\USBComposite/USBCompositeSerial.h:
 
@@ -121,17 +140,31 @@ C:\Users\vedan\.platformio\packages\framework-arduinoststm32-maple\STM32F1\cores
 
 C:\Users\vedan\.platformio\packages\framework-arduinoststm32-maple\STM32F1\libraries\USBComposite/usb_hid.h:
 
-C:\Users\vedan\.platformio\packages\framework-arduinoststm32-maple\STM32F1\libraries\USBComposite/USBXBox360.h:
+C:\Users\vedan\.platformio\packages\framework-arduinoststm32-maple\STM32F1\libraries\USBComposite/USBMassStorage.h:
 
 C:\Users\vedan\.platformio\packages\framework-arduinoststm32-maple\STM32F1\libraries\USBComposite/USBComposite.h:
-
-C:\Users\vedan\.platformio\packages\framework-arduinoststm32-maple\STM32F1\libraries\USBComposite/USBMassStorage.h:
 
 C:\Users\vedan\.platformio\packages\framework-arduinoststm32-maple\STM32F1\libraries\USBComposite/usb_mass_mal.h:
 
 C:\Users\vedan\.platformio\packages\framework-arduinoststm32-maple\STM32F1\libraries\USBComposite/USBMIDI.h:
 
 C:\Users\vedan\.platformio\packages\framework-arduinoststm32-maple\STM32F1\libraries\USBComposite/USBComposite.h:
+
+C:\Users\vedan\.platformio\packages\framework-arduinoststm32-maple\STM32F1\libraries\USBComposite/USBAudio.h:
+
+C:\Users\vedan\.platformio\packages\framework-arduinoststm32-maple\STM32F1\libraries\USBComposite/usb_audio.h:
+
+C:\Users\vedan\.platformio\packages\framework-arduinoststm32-maple\STM32F1\libraries\USBComposite/USBMultiSerial.h:
+
+C:\Users\vedan\.platformio\packages\framework-arduinoststm32-maple\STM32F1\libraries\USBComposite/usb_multi_serial.h:
+
+C:\Users\vedan\.platformio\packages\framework-arduinoststm32-maple\STM32F1\libraries\USBComposite/USBXBox360.h:
+
+C:\Users\vedan\.platformio\packages\framework-arduinoststm32-maple\STM32F1\libraries\USBComposite/usb_x360_generic.h:
+
+C:\Users\vedan\.platformio\packages\framework-arduinoststm32-maple\STM32F1\libraries\USBComposite/usb_x360w.h:
+
+C:\Users\vedan\.platformio\packages\framework-arduinoststm32-maple\STM32F1\libraries\USBComposite/usb_multi_x360.h:
 
 C:\Users\vedan\.platformio\packages\framework-arduinoststm32-maple\STM32F1\libraries\USBComposite\usb_mass.h:
 

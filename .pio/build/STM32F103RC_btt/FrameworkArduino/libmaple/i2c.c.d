@@ -1,6 +1,5 @@
 .pio\build\STM32F103RC_btt\FrameworkArduino\libmaple\i2c.c.o: \
  C:\Users\vedan\.platformio\packages\framework-arduinoststm32-maple\STM32F1\cores\maple\libmaple\i2c.c \
- C:\Users\vedan\.platformio\packages\framework-arduinoststm32-maple\STM32F1\system\libmaple/i2c_private.h \
  C:\Users\vedan\.platformio\packages\framework-arduinoststm32-maple\STM32F1\system\libmaple\include/libmaple/i2c_common.h \
  C:\Users\vedan\.platformio\packages\framework-arduinoststm32-maple\STM32F1\system\libmaple\include/libmaple/libmaple_types.h \
  C:\Users\vedan\.platformio\packages\framework-arduinoststm32-maple\STM32F1\system\libmaple\include/libmaple/nvic.h \
@@ -11,6 +10,7 @@
  C:\Users\vedan\.platformio\packages\framework-arduinoststm32-maple\STM32F1\system\libmaple\include/libmaple/rcc.h \
  C:\Users\vedan\.platformio\packages\framework-arduinoststm32-maple\STM32F1\system\libmaple/stm32f1/include/series/rcc.h \
  C:\Users\vedan\.platformio\packages\framework-arduinoststm32-maple\STM32F1\system\libmaple\include/libmaple/bitband.h \
+ C:\Users\vedan\.platformio\packages\framework-arduinoststm32-maple\STM32F1\system\libmaple/i2c_private.h \
  C:\Users\vedan\.platformio\packages\framework-arduinoststm32-maple\STM32F1\system\libmaple\include/libmaple/libmaple.h \
  C:\Users\vedan\.platformio\packages\framework-arduinoststm32-maple\STM32F1\system\libmaple\include/libmaple/delay.h \
  C:\Users\vedan\.platformio\packages\framework-arduinoststm32-maple\STM32F1\system\libmaple\include/libmaple/gpio.h \
@@ -18,10 +18,8 @@
  C:\Users\vedan\.platformio\packages\framework-arduinoststm32-maple\STM32F1\system\libmaple\include/libmaple/exti.h \
  C:\Users\vedan\.platformio\packages\framework-arduinoststm32-maple\STM32F1\system\libmaple/stm32f1/include/series/exti.h \
  C:\Users\vedan\.platformio\packages\framework-arduinoststm32-maple\STM32F1\system\libmaple\include/libmaple/i2c.h \
- C:\Users\vedan\.platformio\packages\framework-arduinoststm32-maple\STM32F1\system\libmaple/stm32f1/include/series/i2c.h \
+ C:\Users\vedan\.platformio\packages\framework-arduinoststm32-maple\STM32F1\system\libmaple\stm32f1\include/series/i2c.h \
  C:\Users\vedan\.platformio\packages\framework-arduinoststm32-maple\STM32F1\system\libmaple\include/libmaple/systick.h
-
-C:\Users\vedan\.platformio\packages\framework-arduinoststm32-maple\STM32F1\system\libmaple/i2c_private.h:
 
 C:\Users\vedan\.platformio\packages\framework-arduinoststm32-maple\STM32F1\system\libmaple\include/libmaple/i2c_common.h:
 
@@ -43,6 +41,8 @@ C:\Users\vedan\.platformio\packages\framework-arduinoststm32-maple\STM32F1\syste
 
 C:\Users\vedan\.platformio\packages\framework-arduinoststm32-maple\STM32F1\system\libmaple\include/libmaple/bitband.h:
 
+C:\Users\vedan\.platformio\packages\framework-arduinoststm32-maple\STM32F1\system\libmaple/i2c_private.h:
+
 C:\Users\vedan\.platformio\packages\framework-arduinoststm32-maple\STM32F1\system\libmaple\include/libmaple/libmaple.h:
 
 C:\Users\vedan\.platformio\packages\framework-arduinoststm32-maple\STM32F1\system\libmaple\include/libmaple/delay.h:
@@ -57,6 +57,6 @@ C:\Users\vedan\.platformio\packages\framework-arduinoststm32-maple\STM32F1\syste
 
 C:\Users\vedan\.platformio\packages\framework-arduinoststm32-maple\STM32F1\system\libmaple\include/libmaple/i2c.h:
 
-C:\Users\vedan\.platformio\packages\framework-arduinoststm32-maple\STM32F1\system\libmaple/stm32f1/include/series/i2c.h:
+C:\Users\vedan\.platformio\packages\framework-arduinoststm32-maple\STM32F1\system\libmaple\stm32f1\include/series/i2c.h:
 
 C:\Users\vedan\.platformio\packages\framework-arduinoststm32-maple\STM32F1\system\libmaple\include/libmaple/systick.h:

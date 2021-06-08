@@ -23,6 +23,7 @@
  C:\Users\vedan\.platformio\packages\framework-arduinoststm32-maple\STM32F1\cores\maple/boards.h \
  C:\Users\vedan\.platformio\packages\framework-arduinoststm32-maple\STM32F1\cores\maple/wirish_types.h \
  C:\Users\vedan\.platformio\packages\framework-arduinoststm32-maple\STM32F1\variants\generic_stm32f103r/board/board.h \
+ C:\Users\vedan\.platformio\packages\framework-arduinoststm32-maple\STM32F1\system\libmaple\stm32f1\include/series/usart.h \
  C:\Users\vedan\.platformio\packages\framework-arduinoststm32-maple\STM32F1\cores\maple/usb_serial.h \
  C:\Users\vedan\.platformio\packages\framework-arduinoststm32-maple\STM32F1\cores\maple/Print.h \
  C:\Users\vedan\.platformio\packages\framework-arduinoststm32-maple\STM32F1\cores\maple/WString.h \
@@ -76,6 +77,8 @@ C:\Users\vedan\.platformio\packages\framework-arduinoststm32-maple\STM32F1\cores
 C:\Users\vedan\.platformio\packages\framework-arduinoststm32-maple\STM32F1\cores\maple/wirish_types.h:
 
 C:\Users\vedan\.platformio\packages\framework-arduinoststm32-maple\STM32F1\variants\generic_stm32f103r/board/board.h:
+
+C:\Users\vedan\.platformio\packages\framework-arduinoststm32-maple\STM32F1\system\libmaple\stm32f1\include/series/usart.h:
 
 C:\Users\vedan\.platformio\packages\framework-arduinoststm32-maple\STM32F1\cores\maple/usb_serial.h:
 

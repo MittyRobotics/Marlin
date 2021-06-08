@@ -10,6 +10,7 @@
  Marlin\src\sd\../inc/../core/drivers.h \
  Marlin\src\sd\../inc/../../Configuration_adv.h \
  Marlin\src\sd\../inc/Conditionals_adv.h \
+ Marlin\src\sd\../inc/../HAL/STM32F1/inc/Conditionals_adv.h \
  Marlin\src\sd\../inc/../HAL/HAL.h \
  Marlin\src\sd\../inc/../HAL/./STM32F1/HAL.h \
  Marlin\src\sd\../inc/../HAL/./STM32F1/../shared/Marduino.h \
@@ -41,6 +42,7 @@
  C:\Users\vedan\.platformio\packages\framework-arduinoststm32-maple\STM32F1\system\libmaple\include/libmaple/adc.h \
  C:\Users\vedan\.platformio\packages\framework-arduinoststm32-maple\STM32F1\system\libmaple/stm32f1/include/series/adc.h \
  C:\Users\vedan\.platformio\packages\framework-arduinoststm32-maple\STM32F1\variants\generic_stm32f103r/board/board.h \
+ C:\Users\vedan\.platformio\packages\framework-arduinoststm32-maple\STM32F1\system\libmaple\stm32f1\include/series/usart.h \
  C:\Users\vedan\.platformio\packages\framework-arduinoststm32-maple\STM32F1\cores\maple/io.h \
  C:\Users\vedan\.platformio\packages\framework-arduinoststm32-maple\STM32F1\cores\maple/bit_constants.h \
  C:\Users\vedan\.platformio\packages\framework-arduinoststm32-maple\STM32F1\cores\maple/pwm.h \
@@ -63,18 +65,25 @@
  C:\Users\vedan\.platformio\packages\framework-arduinoststm32-maple\STM32F1\cores\maple/tone.h \
  C:\Users\vedan\.platformio\packages\framework-arduinoststm32-maple\STM32F1\cores\maple/Arduino.h \
  C:\Users\vedan\.platformio\packages\framework-arduinoststm32-maple\STM32F1\variants\generic_stm32f103r/variant.h \
+ Marlin\src\sd\../inc/../HAL/./STM32F1/../shared/progmem.h \
  Marlin\src\sd\../inc/../HAL/./STM32F1/../shared/math_32bit.h \
  Marlin\src\sd\../inc/../HAL/./STM32F1/../shared/HAL_SPI.h \
  Marlin\src\sd\../inc/../HAL/./STM32F1/fastio.h \
  Marlin\src\sd\../inc/../HAL/./STM32F1/watchdog.h \
  C:\Users\vedan\.platformio\packages\framework-arduinoststm32-maple\STM32F1\system\libmaple\include/libmaple/iwdg.h \
- Marlin\src\sd\../inc/../HAL/./STM32F1/timers.h \
  C:\Users\vedan\.platformio\packages\framework-arduinoststm32-maple\STM32F1\system\libmaple\include/util/atomic.h \
+ Marlin\src\sd\../inc/../HAL/./STM32F1/MarlinSerial.h \
+ C:\Users\vedan\.platformio\packages\framework-arduinoststm32-maple\STM32F1\system\libmaple\include/libmaple/usart.h \
+ C:\Users\vedan\.platformio\packages\framework-arduinoststm32-maple\STM32F1\system\libmaple\include/libmaple/ring_buffer.h \
+ C:\Users\vedan\.platformio\packages\framework-arduinoststm32-maple\STM32F1\system\libmaple/stm32f1/include/series/usart.h \
  Marlin\src\sd\../inc/../pins/pins.h \
- Marlin\src\sd\../inc/../pins/stm32f1/pins_BTT_SKR_MINI_E3_V1_2.h \
- Marlin\src\sd\../inc/../pins/stm32f1/pins_BTT_SKR_MINI_E3.h \
+ Marlin\src\sd\../inc/../pins/stm32f1/pins_BTT_SKR_MINI_E3_V2_0.h \
+ Marlin\src\sd\../inc/../pins/stm32f1/pins_BTT_SKR_MINI_E3_common.h \
+ Marlin\src\sd\../inc/../pins/pins_postprocess.h \
+ Marlin\src\sd\../inc/../HAL/STM32F1/timers.h \
  Marlin\src\sd\../inc/../HAL/STM32F1/spi_pins.h \
  Marlin\src\sd\../inc/Conditionals_post.h \
+ Marlin\src\sd\../inc/../HAL/STM32F1/inc/Conditionals_post.h \
  Marlin\src\sd\../inc/../core/types.h Marlin\src\sd\../inc/SanityCheck.h \
  Marlin\src\sd\../inc/../HAL/STM32F1/inc/SanityCheck.h \
  Marlin\src\sd\../inc/../core/language.h \
@@ -87,21 +96,46 @@
  Marlin\src\sd\SdFatConfig.h Marlin\src\sd\SdVolume.h \
  Marlin\src\sd\Sd2Card.h Marlin\src\sd\SdInfo.h \
  Marlin\src\sd\SdFatStructs.h Marlin\src\sd\../MarlinCore.h \
- Marlin\src\sd\../lcd/ultralcd.h Marlin\src\sd\../lcd/../libs/buzzer.h \
+ Marlin\src\sd\../lcd/marlinui.h Marlin\src\sd\../lcd/../module/motion.h \
+ Marlin\src\sd\../lcd/buttons.h Marlin\src\sd\../lcd/../libs/buzzer.h \
  Marlin\src\sd\../lcd/../libs/circularqueue.h \
+ Marlin\src\sd\../lcd/../module/printcounter.h \
+ Marlin\src\sd\../lcd/../module/../libs/stopwatch.h \
+ Marlin\src\sd\../lcd/../module/../libs/duration_t.h \
  Marlin\src\sd\../lcd/lcdprint.h Marlin\src\sd\../lcd/fontutils.h \
  Marlin\src\sd\../lcd/dogm/u8g_fontutf8.h \
  .pio\libdeps\STM32F103RC_btt\U8glib-HAL_ID1932\src/U8glib.h \
  C:\Users\vedan\.platformio\packages\framework-arduinoststm32-maple\STM32F1\cores\maple/Print.h \
  .pio\libdeps\STM32F103RC_btt\U8glib-HAL_ID1932\src/clib/u8g.h \
- Marlin\src\sd\../module/planner.h Marlin\src\sd\../module/motion.h \
+ Marlin\src\sd\../module/planner.h \
  Marlin\src\sd\../module/../gcode/queue.h \
- Marlin\src\sd\../module/printcounter.h \
- Marlin\src\sd\../module/../libs/stopwatch.h \
- Marlin\src\sd\../module/../libs/duration_t.h \
- Marlin\src\sd\../module/configuration_store.h \
+ Marlin\src\sd\../module/settings.h \
  Marlin\src\sd\../module/../HAL/shared/eeprom_api.h \
- Marlin\src\sd\../module/../HAL/shared/../../libs/crc16.h
+ Marlin\src\sd\../module/../HAL/shared/../../libs/crc16.h \
+ Marlin\src\sd\../module/stepper/indirection.h \
+ Marlin\src\sd\../module/stepper/trinamic.h \
+ .pio\libdeps\STM32F103RC_btt\TMCStepper\src/TMCStepper.h \
+ C:\Users\vedan\.platformio\packages\framework-arduinoststm32-maple\STM32F1\cores\maple/Stream.h \
+ Marlin\src\HAL\STM32F1/SPI.h \
+ C:\Users\vedan\.platformio\packages\framework-arduinoststm32-maple\STM32F1\system\libmaple\include/libmaple/spi.h \
+ C:\Users\vedan\.platformio\packages\framework-arduinoststm32-maple\STM32F1\system\libmaple/stm32f1/include/series/spi.h \
+ C:\Users\vedan\.platformio\packages\framework-arduinoststm32-maple\STM32F1\system\libmaple\include/libmaple/dma.h \
+ C:\Users\vedan\.platformio\packages\framework-arduinoststm32-maple\STM32F1\system\libmaple/stm32f1/include/series/dma.h \
+ C:\Users\vedan\.platformio\packages\framework-arduinoststm32-maple\STM32F1\system\libmaple\include/libmaple/dma_common.h \
+ C:\Users\vedan\.platformio\packages\framework-arduinoststm32-maple\STM32F1\cores\maple/wirish.h \
+ .pio\libdeps\STM32F103RC_btt\SoftwareSerialM/SoftwareSerial.h \
+ .pio\libdeps\STM32F103RC_btt\TMCStepper\src/source/SERIAL_SWITCH.h \
+ .pio\libdeps\STM32F103RC_btt\TMCStepper\src/source/TMC_platforms.h \
+ .pio\libdeps\STM32F103RC_btt\TMCStepper\src/source/SW_SPI.h \
+ .pio\libdeps\STM32F103RC_btt\TMCStepper\src/source/TMC2130_bitfields.h \
+ .pio\libdeps\STM32F103RC_btt\TMCStepper\src/source/TMC2160_bitfields.h \
+ .pio\libdeps\STM32F103RC_btt\TMCStepper\src/source/TMC5130_bitfields.h \
+ .pio\libdeps\STM32F103RC_btt\TMCStepper\src/source/TMC5160_bitfields.h \
+ .pio\libdeps\STM32F103RC_btt\TMCStepper\src/source/TMC2208_bitfields.h \
+ .pio\libdeps\STM32F103RC_btt\TMCStepper\src/source/TMC2209_bitfields.h \
+ .pio\libdeps\STM32F103RC_btt\TMCStepper\src/source/TMC2660_bitfields.h \
+ Marlin\src\sd\../module/stepper/../../feature/tmc_util.h \
+ Marlin\src\sd\../core/debug_out.h Marlin\src\sd\../libs/hex_print.h
 
 Marlin\src\sd\../inc/MarlinConfig.h:
 
@@ -126,6 +160,8 @@ Marlin\src\sd\../inc/../core/drivers.h:
 Marlin\src\sd\../inc/../../Configuration_adv.h:
 
 Marlin\src\sd\../inc/Conditionals_adv.h:
+
+Marlin\src\sd\../inc/../HAL/STM32F1/inc/Conditionals_adv.h:
 
 Marlin\src\sd\../inc/../HAL/HAL.h:
 
@@ -189,6 +225,8 @@ C:\Users\vedan\.platformio\packages\framework-arduinoststm32-maple\STM32F1\syste
 
 C:\Users\vedan\.platformio\packages\framework-arduinoststm32-maple\STM32F1\variants\generic_stm32f103r/board/board.h:
 
+C:\Users\vedan\.platformio\packages\framework-arduinoststm32-maple\STM32F1\system\libmaple\stm32f1\include/series/usart.h:
+
 C:\Users\vedan\.platformio\packages\framework-arduinoststm32-maple\STM32F1\cores\maple/io.h:
 
 C:\Users\vedan\.platformio\packages\framework-arduinoststm32-maple\STM32F1\cores\maple/bit_constants.h:
@@ -233,6 +271,8 @@ C:\Users\vedan\.platformio\packages\framework-arduinoststm32-maple\STM32F1\cores
 
 C:\Users\vedan\.platformio\packages\framework-arduinoststm32-maple\STM32F1\variants\generic_stm32f103r/variant.h:
 
+Marlin\src\sd\../inc/../HAL/./STM32F1/../shared/progmem.h:
+
 Marlin\src\sd\../inc/../HAL/./STM32F1/../shared/math_32bit.h:
 
 Marlin\src\sd\../inc/../HAL/./STM32F1/../shared/HAL_SPI.h:
@@ -243,19 +283,31 @@ Marlin\src\sd\../inc/../HAL/./STM32F1/watchdog.h:
 
 C:\Users\vedan\.platformio\packages\framework-arduinoststm32-maple\STM32F1\system\libmaple\include/libmaple/iwdg.h:
 
-Marlin\src\sd\../inc/../HAL/./STM32F1/timers.h:
-
 C:\Users\vedan\.platformio\packages\framework-arduinoststm32-maple\STM32F1\system\libmaple\include/util/atomic.h:
+
+Marlin\src\sd\../inc/../HAL/./STM32F1/MarlinSerial.h:
+
+C:\Users\vedan\.platformio\packages\framework-arduinoststm32-maple\STM32F1\system\libmaple\include/libmaple/usart.h:
+
+C:\Users\vedan\.platformio\packages\framework-arduinoststm32-maple\STM32F1\system\libmaple\include/libmaple/ring_buffer.h:
+
+C:\Users\vedan\.platformio\packages\framework-arduinoststm32-maple\STM32F1\system\libmaple/stm32f1/include/series/usart.h:
 
 Marlin\src\sd\../inc/../pins/pins.h:
 
-Marlin\src\sd\../inc/../pins/stm32f1/pins_BTT_SKR_MINI_E3_V1_2.h:
+Marlin\src\sd\../inc/../pins/stm32f1/pins_BTT_SKR_MINI_E3_V2_0.h:
 
-Marlin\src\sd\../inc/../pins/stm32f1/pins_BTT_SKR_MINI_E3.h:
+Marlin\src\sd\../inc/../pins/stm32f1/pins_BTT_SKR_MINI_E3_common.h:
+
+Marlin\src\sd\../inc/../pins/pins_postprocess.h:
+
+Marlin\src\sd\../inc/../HAL/STM32F1/timers.h:
 
 Marlin\src\sd\../inc/../HAL/STM32F1/spi_pins.h:
 
 Marlin\src\sd\../inc/Conditionals_post.h:
+
+Marlin\src\sd\../inc/../HAL/STM32F1/inc/Conditionals_post.h:
 
 Marlin\src\sd\../inc/../core/types.h:
 
@@ -293,11 +345,21 @@ Marlin\src\sd\SdFatStructs.h:
 
 Marlin\src\sd\../MarlinCore.h:
 
-Marlin\src\sd\../lcd/ultralcd.h:
+Marlin\src\sd\../lcd/marlinui.h:
+
+Marlin\src\sd\../lcd/../module/motion.h:
+
+Marlin\src\sd\../lcd/buttons.h:
 
 Marlin\src\sd\../lcd/../libs/buzzer.h:
 
 Marlin\src\sd\../lcd/../libs/circularqueue.h:
+
+Marlin\src\sd\../lcd/../module/printcounter.h:
+
+Marlin\src\sd\../lcd/../module/../libs/stopwatch.h:
+
+Marlin\src\sd\../lcd/../module/../libs/duration_t.h:
 
 Marlin\src\sd\../lcd/lcdprint.h:
 
@@ -313,18 +375,60 @@ C:\Users\vedan\.platformio\packages\framework-arduinoststm32-maple\STM32F1\cores
 
 Marlin\src\sd\../module/planner.h:
 
-Marlin\src\sd\../module/motion.h:
-
 Marlin\src\sd\../module/../gcode/queue.h:
 
-Marlin\src\sd\../module/printcounter.h:
-
-Marlin\src\sd\../module/../libs/stopwatch.h:
-
-Marlin\src\sd\../module/../libs/duration_t.h:
-
-Marlin\src\sd\../module/configuration_store.h:
+Marlin\src\sd\../module/settings.h:
 
 Marlin\src\sd\../module/../HAL/shared/eeprom_api.h:
 
 Marlin\src\sd\../module/../HAL/shared/../../libs/crc16.h:
+
+Marlin\src\sd\../module/stepper/indirection.h:
+
+Marlin\src\sd\../module/stepper/trinamic.h:
+
+.pio\libdeps\STM32F103RC_btt\TMCStepper\src/TMCStepper.h:
+
+C:\Users\vedan\.platformio\packages\framework-arduinoststm32-maple\STM32F1\cores\maple/Stream.h:
+
+Marlin\src\HAL\STM32F1/SPI.h:
+
+C:\Users\vedan\.platformio\packages\framework-arduinoststm32-maple\STM32F1\system\libmaple\include/libmaple/spi.h:
+
+C:\Users\vedan\.platformio\packages\framework-arduinoststm32-maple\STM32F1\system\libmaple/stm32f1/include/series/spi.h:
+
+C:\Users\vedan\.platformio\packages\framework-arduinoststm32-maple\STM32F1\system\libmaple\include/libmaple/dma.h:
+
+C:\Users\vedan\.platformio\packages\framework-arduinoststm32-maple\STM32F1\system\libmaple/stm32f1/include/series/dma.h:
+
+C:\Users\vedan\.platformio\packages\framework-arduinoststm32-maple\STM32F1\system\libmaple\include/libmaple/dma_common.h:
+
+C:\Users\vedan\.platformio\packages\framework-arduinoststm32-maple\STM32F1\cores\maple/wirish.h:
+
+.pio\libdeps\STM32F103RC_btt\SoftwareSerialM/SoftwareSerial.h:
+
+.pio\libdeps\STM32F103RC_btt\TMCStepper\src/source/SERIAL_SWITCH.h:
+
+.pio\libdeps\STM32F103RC_btt\TMCStepper\src/source/TMC_platforms.h:
+
+.pio\libdeps\STM32F103RC_btt\TMCStepper\src/source/SW_SPI.h:
+
+.pio\libdeps\STM32F103RC_btt\TMCStepper\src/source/TMC2130_bitfields.h:
+
+.pio\libdeps\STM32F103RC_btt\TMCStepper\src/source/TMC2160_bitfields.h:
+
+.pio\libdeps\STM32F103RC_btt\TMCStepper\src/source/TMC5130_bitfields.h:
+
+.pio\libdeps\STM32F103RC_btt\TMCStepper\src/source/TMC5160_bitfields.h:
+
+.pio\libdeps\STM32F103RC_btt\TMCStepper\src/source/TMC2208_bitfields.h:
+
+.pio\libdeps\STM32F103RC_btt\TMCStepper\src/source/TMC2209_bitfields.h:
+
+.pio\libdeps\STM32F103RC_btt\TMCStepper\src/source/TMC2660_bitfields.h:
+
+Marlin\src\sd\../module/stepper/../../feature/tmc_util.h:
+
+Marlin\src\sd\../core/debug_out.h:
+
+Marlin\src\sd\../libs/hex_print.h:

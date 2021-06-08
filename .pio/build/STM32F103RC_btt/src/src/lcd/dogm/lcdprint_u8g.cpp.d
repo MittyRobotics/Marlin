@@ -11,7 +11,8 @@
  Marlin\src\lcd\dogm\../../inc/../core/drivers.h \
  Marlin\src\lcd\dogm\../../inc/../../Configuration_adv.h \
  Marlin\src\lcd\dogm\../../inc/Conditionals_adv.h \
- Marlin\src\lcd\dogm\ultralcd_DOGM.h \
+ Marlin\src\lcd\dogm\../../inc/../HAL/STM32F1/inc/Conditionals_adv.h \
+ Marlin\src\lcd\dogm\marlinui_DOGM.h \
  .pio\libdeps\STM32F103RC_btt\U8glib-HAL_ID1932\src/U8glib.h \
  C:\Users\vedan\.platformio\packages\framework-arduinoststm32-maple\STM32F1\cores\maple/Print.h \
  C:\Users\vedan\.platformio\packages\framework-arduinoststm32-maple\STM32F1\system\libmaple\include/libmaple/libmaple_types.h \
@@ -50,6 +51,7 @@
  C:\Users\vedan\.platformio\packages\framework-arduinoststm32-maple\STM32F1\system\libmaple\include/libmaple/adc.h \
  C:\Users\vedan\.platformio\packages\framework-arduinoststm32-maple\STM32F1\system\libmaple/stm32f1/include/series/adc.h \
  C:\Users\vedan\.platformio\packages\framework-arduinoststm32-maple\STM32F1\variants\generic_stm32f103r/board/board.h \
+ C:\Users\vedan\.platformio\packages\framework-arduinoststm32-maple\STM32F1\system\libmaple\stm32f1\include/series/usart.h \
  C:\Users\vedan\.platformio\packages\framework-arduinoststm32-maple\STM32F1\cores\maple/io.h \
  C:\Users\vedan\.platformio\packages\framework-arduinoststm32-maple\STM32F1\cores\maple/bit_constants.h \
  C:\Users\vedan\.platformio\packages\framework-arduinoststm32-maple\STM32F1\cores\maple/pwm.h \
@@ -70,18 +72,25 @@
  C:\Users\vedan\.platformio\packages\framework-arduinoststm32-maple\STM32F1\cores\maple/tone.h \
  C:\Users\vedan\.platformio\packages\framework-arduinoststm32-maple\STM32F1\cores\maple/Arduino.h \
  C:\Users\vedan\.platformio\packages\framework-arduinoststm32-maple\STM32F1\variants\generic_stm32f103r/variant.h \
+ Marlin\src\lcd\dogm\../../inc/../HAL/./STM32F1/../shared/progmem.h \
  Marlin\src\lcd\dogm\../../inc/../HAL/./STM32F1/../shared/math_32bit.h \
  Marlin\src\lcd\dogm\../../inc/../HAL/./STM32F1/../shared/HAL_SPI.h \
  Marlin\src\lcd\dogm\../../inc/../HAL/./STM32F1/fastio.h \
  Marlin\src\lcd\dogm\../../inc/../HAL/./STM32F1/watchdog.h \
  C:\Users\vedan\.platformio\packages\framework-arduinoststm32-maple\STM32F1\system\libmaple\include/libmaple/iwdg.h \
- Marlin\src\lcd\dogm\../../inc/../HAL/./STM32F1/timers.h \
  C:\Users\vedan\.platformio\packages\framework-arduinoststm32-maple\STM32F1\system\libmaple\include/util/atomic.h \
+ Marlin\src\lcd\dogm\../../inc/../HAL/./STM32F1/MarlinSerial.h \
+ C:\Users\vedan\.platformio\packages\framework-arduinoststm32-maple\STM32F1\system\libmaple\include/libmaple/usart.h \
+ C:\Users\vedan\.platformio\packages\framework-arduinoststm32-maple\STM32F1\system\libmaple\include/libmaple/ring_buffer.h \
+ C:\Users\vedan\.platformio\packages\framework-arduinoststm32-maple\STM32F1\system\libmaple/stm32f1/include/series/usart.h \
  Marlin\src\lcd\dogm\../../inc/../pins/pins.h \
- Marlin\src\lcd\dogm\../../inc/../pins/stm32f1/pins_BTT_SKR_MINI_E3_V1_2.h \
- Marlin\src\lcd\dogm\../../inc/../pins/stm32f1/pins_BTT_SKR_MINI_E3.h \
+ Marlin\src\lcd\dogm\../../inc/../pins/stm32f1/pins_BTT_SKR_MINI_E3_V2_0.h \
+ Marlin\src\lcd\dogm\../../inc/../pins/stm32f1/pins_BTT_SKR_MINI_E3_common.h \
+ Marlin\src\lcd\dogm\../../inc/../pins/pins_postprocess.h \
+ Marlin\src\lcd\dogm\../../inc/../HAL/STM32F1/timers.h \
  Marlin\src\lcd\dogm\../../inc/../HAL/STM32F1/spi_pins.h \
  Marlin\src\lcd\dogm\../../inc/Conditionals_post.h \
+ Marlin\src\lcd\dogm\../../inc/../HAL/STM32F1/inc/Conditionals_post.h \
  Marlin\src\lcd\dogm\../../inc/../core/types.h \
  Marlin\src\lcd\dogm\../../inc/SanityCheck.h \
  Marlin\src\lcd\dogm\../../inc/../HAL/STM32F1/inc/SanityCheck.h \
@@ -91,12 +100,10 @@
  Marlin\src\lcd\dogm\../../inc/../core/utility.h \
  Marlin\src\lcd\dogm\../../inc/../core/../core/millis_t.h \
  Marlin\src\lcd\dogm\../../inc/../core/serial.h \
- Marlin\src\lcd\dogm\../ultralcd.h \
- Marlin\src\lcd\dogm\../../libs/buzzer.h \
+ Marlin\src\lcd\dogm\../marlinui.h \
+ Marlin\src\lcd\dogm\../../module/motion.h \
+ Marlin\src\lcd\dogm\../buttons.h Marlin\src\lcd\dogm\../../libs/buzzer.h \
  Marlin\src\lcd\dogm\../../libs/circularqueue.h \
- Marlin\src\lcd\dogm\../../MarlinCore.h Marlin\src\lcd\dogm\../lcdprint.h \
- Marlin\src\lcd\dogm\../fontutils.h \
- Marlin\src\lcd\dogm\../dogm/u8g_fontutf8.h \
  Marlin\src\lcd\dogm\../../sd/cardreader.h \
  Marlin\src\lcd\dogm\../../sd/SdFile.h \
  Marlin\src\lcd\dogm\../../sd/SdBaseFile.h \
@@ -104,7 +111,13 @@
  Marlin\src\lcd\dogm\../../sd/SdVolume.h \
  Marlin\src\lcd\dogm\../../sd/Sd2Card.h \
  Marlin\src\lcd\dogm\../../sd/SdInfo.h \
- Marlin\src\lcd\dogm\../../sd/SdFatStructs.h
+ Marlin\src\lcd\dogm\../../sd/SdFatStructs.h \
+ Marlin\src\lcd\dogm\../../module/printcounter.h \
+ Marlin\src\lcd\dogm\../../module/../libs/stopwatch.h \
+ Marlin\src\lcd\dogm\../../module/../libs/duration_t.h \
+ Marlin\src\lcd\dogm\../lcdprint.h Marlin\src\lcd\dogm\../fontutils.h \
+ Marlin\src\lcd\dogm\../dogm/u8g_fontutf8.h \
+ Marlin\src\lcd\dogm\../../MarlinCore.h
 
 Marlin\src\lcd\dogm\../../inc/MarlinConfigPre.h:
 
@@ -128,7 +141,9 @@ Marlin\src\lcd\dogm\../../inc/../../Configuration_adv.h:
 
 Marlin\src\lcd\dogm\../../inc/Conditionals_adv.h:
 
-Marlin\src\lcd\dogm\ultralcd_DOGM.h:
+Marlin\src\lcd\dogm\../../inc/../HAL/STM32F1/inc/Conditionals_adv.h:
+
+Marlin\src\lcd\dogm\marlinui_DOGM.h:
 
 .pio\libdeps\STM32F103RC_btt\U8glib-HAL_ID1932\src/U8glib.h:
 
@@ -206,6 +221,8 @@ C:\Users\vedan\.platformio\packages\framework-arduinoststm32-maple\STM32F1\syste
 
 C:\Users\vedan\.platformio\packages\framework-arduinoststm32-maple\STM32F1\variants\generic_stm32f103r/board/board.h:
 
+C:\Users\vedan\.platformio\packages\framework-arduinoststm32-maple\STM32F1\system\libmaple\stm32f1\include/series/usart.h:
+
 C:\Users\vedan\.platformio\packages\framework-arduinoststm32-maple\STM32F1\cores\maple/io.h:
 
 C:\Users\vedan\.platformio\packages\framework-arduinoststm32-maple\STM32F1\cores\maple/bit_constants.h:
@@ -246,6 +263,8 @@ C:\Users\vedan\.platformio\packages\framework-arduinoststm32-maple\STM32F1\cores
 
 C:\Users\vedan\.platformio\packages\framework-arduinoststm32-maple\STM32F1\variants\generic_stm32f103r/variant.h:
 
+Marlin\src\lcd\dogm\../../inc/../HAL/./STM32F1/../shared/progmem.h:
+
 Marlin\src\lcd\dogm\../../inc/../HAL/./STM32F1/../shared/math_32bit.h:
 
 Marlin\src\lcd\dogm\../../inc/../HAL/./STM32F1/../shared/HAL_SPI.h:
@@ -256,19 +275,31 @@ Marlin\src\lcd\dogm\../../inc/../HAL/./STM32F1/watchdog.h:
 
 C:\Users\vedan\.platformio\packages\framework-arduinoststm32-maple\STM32F1\system\libmaple\include/libmaple/iwdg.h:
 
-Marlin\src\lcd\dogm\../../inc/../HAL/./STM32F1/timers.h:
-
 C:\Users\vedan\.platformio\packages\framework-arduinoststm32-maple\STM32F1\system\libmaple\include/util/atomic.h:
+
+Marlin\src\lcd\dogm\../../inc/../HAL/./STM32F1/MarlinSerial.h:
+
+C:\Users\vedan\.platformio\packages\framework-arduinoststm32-maple\STM32F1\system\libmaple\include/libmaple/usart.h:
+
+C:\Users\vedan\.platformio\packages\framework-arduinoststm32-maple\STM32F1\system\libmaple\include/libmaple/ring_buffer.h:
+
+C:\Users\vedan\.platformio\packages\framework-arduinoststm32-maple\STM32F1\system\libmaple/stm32f1/include/series/usart.h:
 
 Marlin\src\lcd\dogm\../../inc/../pins/pins.h:
 
-Marlin\src\lcd\dogm\../../inc/../pins/stm32f1/pins_BTT_SKR_MINI_E3_V1_2.h:
+Marlin\src\lcd\dogm\../../inc/../pins/stm32f1/pins_BTT_SKR_MINI_E3_V2_0.h:
 
-Marlin\src\lcd\dogm\../../inc/../pins/stm32f1/pins_BTT_SKR_MINI_E3.h:
+Marlin\src\lcd\dogm\../../inc/../pins/stm32f1/pins_BTT_SKR_MINI_E3_common.h:
+
+Marlin\src\lcd\dogm\../../inc/../pins/pins_postprocess.h:
+
+Marlin\src\lcd\dogm\../../inc/../HAL/STM32F1/timers.h:
 
 Marlin\src\lcd\dogm\../../inc/../HAL/STM32F1/spi_pins.h:
 
 Marlin\src\lcd\dogm\../../inc/Conditionals_post.h:
+
+Marlin\src\lcd\dogm\../../inc/../HAL/STM32F1/inc/Conditionals_post.h:
 
 Marlin\src\lcd\dogm\../../inc/../core/types.h:
 
@@ -288,19 +319,15 @@ Marlin\src\lcd\dogm\../../inc/../core/../core/millis_t.h:
 
 Marlin\src\lcd\dogm\../../inc/../core/serial.h:
 
-Marlin\src\lcd\dogm\../ultralcd.h:
+Marlin\src\lcd\dogm\../marlinui.h:
+
+Marlin\src\lcd\dogm\../../module/motion.h:
+
+Marlin\src\lcd\dogm\../buttons.h:
 
 Marlin\src\lcd\dogm\../../libs/buzzer.h:
 
 Marlin\src\lcd\dogm\../../libs/circularqueue.h:
-
-Marlin\src\lcd\dogm\../../MarlinCore.h:
-
-Marlin\src\lcd\dogm\../lcdprint.h:
-
-Marlin\src\lcd\dogm\../fontutils.h:
-
-Marlin\src\lcd\dogm\../dogm/u8g_fontutf8.h:
 
 Marlin\src\lcd\dogm\../../sd/cardreader.h:
 
@@ -317,3 +344,17 @@ Marlin\src\lcd\dogm\../../sd/Sd2Card.h:
 Marlin\src\lcd\dogm\../../sd/SdInfo.h:
 
 Marlin\src\lcd\dogm\../../sd/SdFatStructs.h:
+
+Marlin\src\lcd\dogm\../../module/printcounter.h:
+
+Marlin\src\lcd\dogm\../../module/../libs/stopwatch.h:
+
+Marlin\src\lcd\dogm\../../module/../libs/duration_t.h:
+
+Marlin\src\lcd\dogm\../lcdprint.h:
+
+Marlin\src\lcd\dogm\../fontutils.h:
+
+Marlin\src\lcd\dogm\../dogm/u8g_fontutf8.h:
+
+Marlin\src\lcd\dogm\../../MarlinCore.h:

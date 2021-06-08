@@ -27,6 +27,7 @@
  C:\Users\vedan\.platformio\packages\framework-arduinoststm32-maple\STM32F1\system\libmaple\include/libmaple/adc.h \
  C:\Users\vedan\.platformio\packages\framework-arduinoststm32-maple\STM32F1\system\libmaple/stm32f1/include/series/adc.h \
  C:\Users\vedan\.platformio\packages\framework-arduinoststm32-maple\STM32F1\variants\generic_stm32f103r/board/board.h \
+ C:\Users\vedan\.platformio\packages\framework-arduinoststm32-maple\STM32F1\system\libmaple\stm32f1\include/series/usart.h \
  C:\Users\vedan\.platformio\packages\framework-arduinoststm32-maple\STM32F1\cores\maple/wirish.h \
  C:\Users\vedan\.platformio\packages\framework-arduinoststm32-maple\STM32F1\cores\maple/WString.h \
  C:\Users\vedan\.platformio\packages\framework-arduinoststm32-maple\STM32F1\cores\maple/avr/pgmspace.h \
@@ -54,7 +55,52 @@
  C:\Users\vedan\.platformio\packages\framework-arduinoststm32-maple\STM32F1\cores\maple/tone.h \
  C:\Users\vedan\.platformio\packages\framework-arduinoststm32-maple\STM32F1\cores\maple/Arduino.h \
  C:\Users\vedan\.platformio\packages\framework-arduinoststm32-maple\STM32F1\cores\maple/wirish.h \
- C:\Users\vedan\.platformio\packages\framework-arduinoststm32-maple\STM32F1\variants\generic_stm32f103r/variant.h
+ C:\Users\vedan\.platformio\packages\framework-arduinoststm32-maple\STM32F1\variants\generic_stm32f103r/variant.h \
+ Marlin\src\HAL\STM32F1\../../inc/MarlinConfig.h \
+ Marlin\src\HAL\STM32F1\../../inc/MarlinConfigPre.h \
+ Marlin\src\HAL\STM32F1\../../inc/../HAL/platforms.h \
+ Marlin\src\HAL\STM32F1\../../inc/../core/boards.h \
+ Marlin\src\HAL\STM32F1\../../inc/../core/macros.h \
+ Marlin\src\HAL\STM32F1\../../inc/../../Configuration.h \
+ Marlin\src\HAL\STM32F1\../../inc/Version.h \
+ Marlin\src\HAL\STM32F1\../../inc/Conditionals_LCD.h \
+ Marlin\src\HAL\STM32F1\../../inc/../HAL/STM32F1/inc/Conditionals_LCD.h \
+ Marlin\src\HAL\STM32F1\../../inc/../core/drivers.h \
+ Marlin\src\HAL\STM32F1\../../inc/../../Configuration_adv.h \
+ Marlin\src\HAL\STM32F1\../../inc/Conditionals_adv.h \
+ Marlin\src\HAL\STM32F1\../../inc/../HAL/STM32F1/inc/Conditionals_adv.h \
+ Marlin\src\HAL\STM32F1\../../inc/../HAL/HAL.h \
+ Marlin\src\HAL\STM32F1\../../inc/../HAL/./STM32F1/HAL.h \
+ Marlin\src\HAL\STM32F1\../../inc/../HAL/./STM32F1/../shared/Marduino.h \
+ C:\Users\vedan\.platformio\packages\framework-arduinoststm32-maple\STM32F1\cores\maple/Arduino.h \
+ Marlin\src\HAL\STM32F1\../../inc/../HAL/./STM32F1/../shared/progmem.h \
+ Marlin\src\HAL\STM32F1\../../inc/../HAL/./STM32F1/../shared/math_32bit.h \
+ Marlin\src\HAL\STM32F1\../../inc/../HAL/./STM32F1/../shared/HAL_SPI.h \
+ Marlin\src\HAL\STM32F1\../../inc/../HAL/./STM32F1/fastio.h \
+ Marlin\src\HAL\STM32F1\../../inc/../HAL/./STM32F1/watchdog.h \
+ C:\Users\vedan\.platformio\packages\framework-arduinoststm32-maple\STM32F1\system\libmaple\include/libmaple/iwdg.h \
+ C:\Users\vedan\.platformio\packages\framework-arduinoststm32-maple\STM32F1\system\libmaple\include/util/atomic.h \
+ Marlin\src\HAL\STM32F1\../../inc/../HAL/./STM32F1/MarlinSerial.h \
+ C:\Users\vedan\.platformio\packages\framework-arduinoststm32-maple\STM32F1\system\libmaple\include/libmaple/usart.h \
+ C:\Users\vedan\.platformio\packages\framework-arduinoststm32-maple\STM32F1\system\libmaple\include/libmaple/ring_buffer.h \
+ C:\Users\vedan\.platformio\packages\framework-arduinoststm32-maple\STM32F1\system\libmaple/stm32f1/include/series/usart.h \
+ Marlin\src\HAL\STM32F1\../../inc/../pins/pins.h \
+ Marlin\src\HAL\STM32F1\../../inc/../pins/stm32f1/pins_BTT_SKR_MINI_E3_V2_0.h \
+ Marlin\src\HAL\STM32F1\../../inc/../pins/stm32f1/pins_BTT_SKR_MINI_E3_common.h \
+ Marlin\src\HAL\STM32F1\../../inc/../pins/pins_postprocess.h \
+ Marlin\src\HAL\STM32F1\../../inc/../HAL/STM32F1/timers.h \
+ Marlin\src\HAL\STM32F1\../../inc/../HAL/STM32F1/spi_pins.h \
+ Marlin\src\HAL\STM32F1\../../inc/Conditionals_post.h \
+ Marlin\src\HAL\STM32F1\../../inc/../HAL/STM32F1/inc/Conditionals_post.h \
+ Marlin\src\HAL\STM32F1\../../inc/../core/types.h \
+ Marlin\src\HAL\STM32F1\../../inc/SanityCheck.h \
+ Marlin\src\HAL\STM32F1\../../inc/../HAL/STM32F1/inc/SanityCheck.h \
+ Marlin\src\HAL\STM32F1\../../inc/../core/language.h \
+ Marlin\src\HAL\STM32F1\../../inc/../core/multi_language.h \
+ Marlin\src\HAL\STM32F1\../../inc/../core/../lcd/language/language_en.h \
+ Marlin\src\HAL\STM32F1\../../inc/../core/utility.h \
+ Marlin\src\HAL\STM32F1\../../inc/../core/../core/millis_t.h \
+ Marlin\src\HAL\STM32F1\../../inc/../core/serial.h
 
 Marlin\src\HAL\STM32F1/SPI.h:
 
@@ -112,6 +158,8 @@ C:\Users\vedan\.platformio\packages\framework-arduinoststm32-maple\STM32F1\syste
 
 C:\Users\vedan\.platformio\packages\framework-arduinoststm32-maple\STM32F1\variants\generic_stm32f103r/board/board.h:
 
+C:\Users\vedan\.platformio\packages\framework-arduinoststm32-maple\STM32F1\system\libmaple\stm32f1\include/series/usart.h:
+
 C:\Users\vedan\.platformio\packages\framework-arduinoststm32-maple\STM32F1\cores\maple/wirish.h:
 
 C:\Users\vedan\.platformio\packages\framework-arduinoststm32-maple\STM32F1\cores\maple/WString.h:
@@ -167,3 +215,93 @@ C:\Users\vedan\.platformio\packages\framework-arduinoststm32-maple\STM32F1\cores
 C:\Users\vedan\.platformio\packages\framework-arduinoststm32-maple\STM32F1\cores\maple/wirish.h:
 
 C:\Users\vedan\.platformio\packages\framework-arduinoststm32-maple\STM32F1\variants\generic_stm32f103r/variant.h:
+
+Marlin\src\HAL\STM32F1\../../inc/MarlinConfig.h:
+
+Marlin\src\HAL\STM32F1\../../inc/MarlinConfigPre.h:
+
+Marlin\src\HAL\STM32F1\../../inc/../HAL/platforms.h:
+
+Marlin\src\HAL\STM32F1\../../inc/../core/boards.h:
+
+Marlin\src\HAL\STM32F1\../../inc/../core/macros.h:
+
+Marlin\src\HAL\STM32F1\../../inc/../../Configuration.h:
+
+Marlin\src\HAL\STM32F1\../../inc/Version.h:
+
+Marlin\src\HAL\STM32F1\../../inc/Conditionals_LCD.h:
+
+Marlin\src\HAL\STM32F1\../../inc/../HAL/STM32F1/inc/Conditionals_LCD.h:
+
+Marlin\src\HAL\STM32F1\../../inc/../core/drivers.h:
+
+Marlin\src\HAL\STM32F1\../../inc/../../Configuration_adv.h:
+
+Marlin\src\HAL\STM32F1\../../inc/Conditionals_adv.h:
+
+Marlin\src\HAL\STM32F1\../../inc/../HAL/STM32F1/inc/Conditionals_adv.h:
+
+Marlin\src\HAL\STM32F1\../../inc/../HAL/HAL.h:
+
+Marlin\src\HAL\STM32F1\../../inc/../HAL/./STM32F1/HAL.h:
+
+Marlin\src\HAL\STM32F1\../../inc/../HAL/./STM32F1/../shared/Marduino.h:
+
+C:\Users\vedan\.platformio\packages\framework-arduinoststm32-maple\STM32F1\cores\maple/Arduino.h:
+
+Marlin\src\HAL\STM32F1\../../inc/../HAL/./STM32F1/../shared/progmem.h:
+
+Marlin\src\HAL\STM32F1\../../inc/../HAL/./STM32F1/../shared/math_32bit.h:
+
+Marlin\src\HAL\STM32F1\../../inc/../HAL/./STM32F1/../shared/HAL_SPI.h:
+
+Marlin\src\HAL\STM32F1\../../inc/../HAL/./STM32F1/fastio.h:
+
+Marlin\src\HAL\STM32F1\../../inc/../HAL/./STM32F1/watchdog.h:
+
+C:\Users\vedan\.platformio\packages\framework-arduinoststm32-maple\STM32F1\system\libmaple\include/libmaple/iwdg.h:
+
+C:\Users\vedan\.platformio\packages\framework-arduinoststm32-maple\STM32F1\system\libmaple\include/util/atomic.h:
+
+Marlin\src\HAL\STM32F1\../../inc/../HAL/./STM32F1/MarlinSerial.h:
+
+C:\Users\vedan\.platformio\packages\framework-arduinoststm32-maple\STM32F1\system\libmaple\include/libmaple/usart.h:
+
+C:\Users\vedan\.platformio\packages\framework-arduinoststm32-maple\STM32F1\system\libmaple\include/libmaple/ring_buffer.h:
+
+C:\Users\vedan\.platformio\packages\framework-arduinoststm32-maple\STM32F1\system\libmaple/stm32f1/include/series/usart.h:
+
+Marlin\src\HAL\STM32F1\../../inc/../pins/pins.h:
+
+Marlin\src\HAL\STM32F1\../../inc/../pins/stm32f1/pins_BTT_SKR_MINI_E3_V2_0.h:
+
+Marlin\src\HAL\STM32F1\../../inc/../pins/stm32f1/pins_BTT_SKR_MINI_E3_common.h:
+
+Marlin\src\HAL\STM32F1\../../inc/../pins/pins_postprocess.h:
+
+Marlin\src\HAL\STM32F1\../../inc/../HAL/STM32F1/timers.h:
+
+Marlin\src\HAL\STM32F1\../../inc/../HAL/STM32F1/spi_pins.h:
+
+Marlin\src\HAL\STM32F1\../../inc/Conditionals_post.h:
+
+Marlin\src\HAL\STM32F1\../../inc/../HAL/STM32F1/inc/Conditionals_post.h:
+
+Marlin\src\HAL\STM32F1\../../inc/../core/types.h:
+
+Marlin\src\HAL\STM32F1\../../inc/SanityCheck.h:
+
+Marlin\src\HAL\STM32F1\../../inc/../HAL/STM32F1/inc/SanityCheck.h:
+
+Marlin\src\HAL\STM32F1\../../inc/../core/language.h:
+
+Marlin\src\HAL\STM32F1\../../inc/../core/multi_language.h:
+
+Marlin\src\HAL\STM32F1\../../inc/../core/../lcd/language/language_en.h:
+
+Marlin\src\HAL\STM32F1\../../inc/../core/utility.h:
+
+Marlin\src\HAL\STM32F1\../../inc/../core/../core/millis_t.h:
+
+Marlin\src\HAL\STM32F1\../../inc/../core/serial.h:

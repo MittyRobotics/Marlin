@@ -12,6 +12,7 @@
  Marlin\src\gcode\../inc/../core/drivers.h \
  Marlin\src\gcode\../inc/../../Configuration_adv.h \
  Marlin\src\gcode\../inc/Conditionals_adv.h \
+ Marlin\src\gcode\../inc/../HAL/STM32F1/inc/Conditionals_adv.h \
  Marlin\src\gcode\../inc/../HAL/HAL.h \
  Marlin\src\gcode\../inc/../HAL/./STM32F1/HAL.h \
  Marlin\src\gcode\../inc/../HAL/./STM32F1/../shared/Marduino.h \
@@ -43,6 +44,7 @@
  C:\Users\vedan\.platformio\packages\framework-arduinoststm32-maple\STM32F1\system\libmaple\include/libmaple/adc.h \
  C:\Users\vedan\.platformio\packages\framework-arduinoststm32-maple\STM32F1\system\libmaple/stm32f1/include/series/adc.h \
  C:\Users\vedan\.platformio\packages\framework-arduinoststm32-maple\STM32F1\variants\generic_stm32f103r/board/board.h \
+ C:\Users\vedan\.platformio\packages\framework-arduinoststm32-maple\STM32F1\system\libmaple\stm32f1\include/series/usart.h \
  C:\Users\vedan\.platformio\packages\framework-arduinoststm32-maple\STM32F1\cores\maple/io.h \
  C:\Users\vedan\.platformio\packages\framework-arduinoststm32-maple\STM32F1\cores\maple/bit_constants.h \
  C:\Users\vedan\.platformio\packages\framework-arduinoststm32-maple\STM32F1\cores\maple/pwm.h \
@@ -65,18 +67,25 @@
  C:\Users\vedan\.platformio\packages\framework-arduinoststm32-maple\STM32F1\cores\maple/tone.h \
  C:\Users\vedan\.platformio\packages\framework-arduinoststm32-maple\STM32F1\cores\maple/Arduino.h \
  C:\Users\vedan\.platformio\packages\framework-arduinoststm32-maple\STM32F1\variants\generic_stm32f103r/variant.h \
+ Marlin\src\gcode\../inc/../HAL/./STM32F1/../shared/progmem.h \
  Marlin\src\gcode\../inc/../HAL/./STM32F1/../shared/math_32bit.h \
  Marlin\src\gcode\../inc/../HAL/./STM32F1/../shared/HAL_SPI.h \
  Marlin\src\gcode\../inc/../HAL/./STM32F1/fastio.h \
  Marlin\src\gcode\../inc/../HAL/./STM32F1/watchdog.h \
  C:\Users\vedan\.platformio\packages\framework-arduinoststm32-maple\STM32F1\system\libmaple\include/libmaple/iwdg.h \
- Marlin\src\gcode\../inc/../HAL/./STM32F1/timers.h \
  C:\Users\vedan\.platformio\packages\framework-arduinoststm32-maple\STM32F1\system\libmaple\include/util/atomic.h \
+ Marlin\src\gcode\../inc/../HAL/./STM32F1/MarlinSerial.h \
+ C:\Users\vedan\.platformio\packages\framework-arduinoststm32-maple\STM32F1\system\libmaple\include/libmaple/usart.h \
+ C:\Users\vedan\.platformio\packages\framework-arduinoststm32-maple\STM32F1\system\libmaple\include/libmaple/ring_buffer.h \
+ C:\Users\vedan\.platformio\packages\framework-arduinoststm32-maple\STM32F1\system\libmaple/stm32f1/include/series/usart.h \
  Marlin\src\gcode\../inc/../pins/pins.h \
- Marlin\src\gcode\../inc/../pins/stm32f1/pins_BTT_SKR_MINI_E3_V1_2.h \
- Marlin\src\gcode\../inc/../pins/stm32f1/pins_BTT_SKR_MINI_E3.h \
+ Marlin\src\gcode\../inc/../pins/stm32f1/pins_BTT_SKR_MINI_E3_V2_0.h \
+ Marlin\src\gcode\../inc/../pins/stm32f1/pins_BTT_SKR_MINI_E3_common.h \
+ Marlin\src\gcode\../inc/../pins/pins_postprocess.h \
+ Marlin\src\gcode\../inc/../HAL/STM32F1/timers.h \
  Marlin\src\gcode\../inc/../HAL/STM32F1/spi_pins.h \
  Marlin\src\gcode\../inc/Conditionals_post.h \
+ Marlin\src\gcode\../inc/../HAL/STM32F1/inc/Conditionals_post.h \
  Marlin\src\gcode\../inc/../core/types.h \
  Marlin\src\gcode\../inc/SanityCheck.h \
  Marlin\src\gcode\../inc/../HAL/STM32F1/inc/SanityCheck.h \
@@ -86,15 +95,11 @@
  Marlin\src\gcode\../inc/../core/utility.h \
  Marlin\src\gcode\../inc/../core/../core/millis_t.h \
  Marlin\src\gcode\../inc/../core/serial.h Marlin\src\gcode\gcode.h \
- Marlin\src\gcode\parser.h Marlin\src\gcode\../lcd/ultralcd.h \
+ Marlin\src\gcode\parser.h Marlin\src\gcode\../lcd/marlinui.h \
+ Marlin\src\gcode\../lcd/../module/motion.h \
+ Marlin\src\gcode\../lcd/buttons.h \
  Marlin\src\gcode\../lcd/../libs/buzzer.h \
  Marlin\src\gcode\../lcd/../libs/circularqueue.h \
- Marlin\src\gcode\../lcd/../MarlinCore.h \
- Marlin\src\gcode\../lcd/lcdprint.h Marlin\src\gcode\../lcd/fontutils.h \
- Marlin\src\gcode\../lcd/dogm/u8g_fontutf8.h \
- .pio\libdeps\STM32F103RC_btt\U8glib-HAL_ID1932\src/U8glib.h \
- C:\Users\vedan\.platformio\packages\framework-arduinoststm32-maple\STM32F1\cores\maple/Print.h \
- .pio\libdeps\STM32F103RC_btt\U8glib-HAL_ID1932\src/clib/u8g.h \
  Marlin\src\gcode\../lcd/../sd/cardreader.h \
  Marlin\src\gcode\../lcd/../sd/SdFile.h \
  Marlin\src\gcode\../lcd/../sd/SdBaseFile.h \
@@ -103,7 +108,16 @@
  Marlin\src\gcode\../lcd/../sd/Sd2Card.h \
  Marlin\src\gcode\../lcd/../sd/SdInfo.h \
  Marlin\src\gcode\../lcd/../sd/SdFatStructs.h \
- Marlin\src\gcode\../module/planner.h Marlin\src\gcode\../module/motion.h \
+ Marlin\src\gcode\../lcd/../module/printcounter.h \
+ Marlin\src\gcode\../lcd/../module/../libs/stopwatch.h \
+ Marlin\src\gcode\../lcd/../module/../libs/duration_t.h \
+ Marlin\src\gcode\../lcd/lcdprint.h Marlin\src\gcode\../lcd/fontutils.h \
+ Marlin\src\gcode\../lcd/dogm/u8g_fontutf8.h \
+ .pio\libdeps\STM32F103RC_btt\U8glib-HAL_ID1932\src/U8glib.h \
+ C:\Users\vedan\.platformio\packages\framework-arduinoststm32-maple\STM32F1\cores\maple/Print.h \
+ .pio\libdeps\STM32F103RC_btt\U8glib-HAL_ID1932\src/clib/u8g.h \
+ Marlin\src\gcode\../module/planner.h \
+ Marlin\src\gcode\../module/../MarlinCore.h \
  Marlin\src\gcode\../module/temperature.h \
  Marlin\src\gcode\../module/thermistor/thermistors.h \
  Marlin\src\gcode\../module/thermistor/thermistor_1.h
@@ -133,6 +147,8 @@ Marlin\src\gcode\../inc/../core/drivers.h:
 Marlin\src\gcode\../inc/../../Configuration_adv.h:
 
 Marlin\src\gcode\../inc/Conditionals_adv.h:
+
+Marlin\src\gcode\../inc/../HAL/STM32F1/inc/Conditionals_adv.h:
 
 Marlin\src\gcode\../inc/../HAL/HAL.h:
 
@@ -196,6 +212,8 @@ C:\Users\vedan\.platformio\packages\framework-arduinoststm32-maple\STM32F1\syste
 
 C:\Users\vedan\.platformio\packages\framework-arduinoststm32-maple\STM32F1\variants\generic_stm32f103r/board/board.h:
 
+C:\Users\vedan\.platformio\packages\framework-arduinoststm32-maple\STM32F1\system\libmaple\stm32f1\include/series/usart.h:
+
 C:\Users\vedan\.platformio\packages\framework-arduinoststm32-maple\STM32F1\cores\maple/io.h:
 
 C:\Users\vedan\.platformio\packages\framework-arduinoststm32-maple\STM32F1\cores\maple/bit_constants.h:
@@ -240,6 +258,8 @@ C:\Users\vedan\.platformio\packages\framework-arduinoststm32-maple\STM32F1\cores
 
 C:\Users\vedan\.platformio\packages\framework-arduinoststm32-maple\STM32F1\variants\generic_stm32f103r/variant.h:
 
+Marlin\src\gcode\../inc/../HAL/./STM32F1/../shared/progmem.h:
+
 Marlin\src\gcode\../inc/../HAL/./STM32F1/../shared/math_32bit.h:
 
 Marlin\src\gcode\../inc/../HAL/./STM32F1/../shared/HAL_SPI.h:
@@ -250,19 +270,31 @@ Marlin\src\gcode\../inc/../HAL/./STM32F1/watchdog.h:
 
 C:\Users\vedan\.platformio\packages\framework-arduinoststm32-maple\STM32F1\system\libmaple\include/libmaple/iwdg.h:
 
-Marlin\src\gcode\../inc/../HAL/./STM32F1/timers.h:
-
 C:\Users\vedan\.platformio\packages\framework-arduinoststm32-maple\STM32F1\system\libmaple\include/util/atomic.h:
+
+Marlin\src\gcode\../inc/../HAL/./STM32F1/MarlinSerial.h:
+
+C:\Users\vedan\.platformio\packages\framework-arduinoststm32-maple\STM32F1\system\libmaple\include/libmaple/usart.h:
+
+C:\Users\vedan\.platformio\packages\framework-arduinoststm32-maple\STM32F1\system\libmaple\include/libmaple/ring_buffer.h:
+
+C:\Users\vedan\.platformio\packages\framework-arduinoststm32-maple\STM32F1\system\libmaple/stm32f1/include/series/usart.h:
 
 Marlin\src\gcode\../inc/../pins/pins.h:
 
-Marlin\src\gcode\../inc/../pins/stm32f1/pins_BTT_SKR_MINI_E3_V1_2.h:
+Marlin\src\gcode\../inc/../pins/stm32f1/pins_BTT_SKR_MINI_E3_V2_0.h:
 
-Marlin\src\gcode\../inc/../pins/stm32f1/pins_BTT_SKR_MINI_E3.h:
+Marlin\src\gcode\../inc/../pins/stm32f1/pins_BTT_SKR_MINI_E3_common.h:
+
+Marlin\src\gcode\../inc/../pins/pins_postprocess.h:
+
+Marlin\src\gcode\../inc/../HAL/STM32F1/timers.h:
 
 Marlin\src\gcode\../inc/../HAL/STM32F1/spi_pins.h:
 
 Marlin\src\gcode\../inc/Conditionals_post.h:
+
+Marlin\src\gcode\../inc/../HAL/STM32F1/inc/Conditionals_post.h:
 
 Marlin\src\gcode\../inc/../core/types.h:
 
@@ -286,25 +318,15 @@ Marlin\src\gcode\gcode.h:
 
 Marlin\src\gcode\parser.h:
 
-Marlin\src\gcode\../lcd/ultralcd.h:
+Marlin\src\gcode\../lcd/marlinui.h:
+
+Marlin\src\gcode\../lcd/../module/motion.h:
+
+Marlin\src\gcode\../lcd/buttons.h:
 
 Marlin\src\gcode\../lcd/../libs/buzzer.h:
 
 Marlin\src\gcode\../lcd/../libs/circularqueue.h:
-
-Marlin\src\gcode\../lcd/../MarlinCore.h:
-
-Marlin\src\gcode\../lcd/lcdprint.h:
-
-Marlin\src\gcode\../lcd/fontutils.h:
-
-Marlin\src\gcode\../lcd/dogm/u8g_fontutf8.h:
-
-.pio\libdeps\STM32F103RC_btt\U8glib-HAL_ID1932\src/U8glib.h:
-
-C:\Users\vedan\.platformio\packages\framework-arduinoststm32-maple\STM32F1\cores\maple/Print.h:
-
-.pio\libdeps\STM32F103RC_btt\U8glib-HAL_ID1932\src/clib/u8g.h:
 
 Marlin\src\gcode\../lcd/../sd/cardreader.h:
 
@@ -322,9 +344,27 @@ Marlin\src\gcode\../lcd/../sd/SdInfo.h:
 
 Marlin\src\gcode\../lcd/../sd/SdFatStructs.h:
 
+Marlin\src\gcode\../lcd/../module/printcounter.h:
+
+Marlin\src\gcode\../lcd/../module/../libs/stopwatch.h:
+
+Marlin\src\gcode\../lcd/../module/../libs/duration_t.h:
+
+Marlin\src\gcode\../lcd/lcdprint.h:
+
+Marlin\src\gcode\../lcd/fontutils.h:
+
+Marlin\src\gcode\../lcd/dogm/u8g_fontutf8.h:
+
+.pio\libdeps\STM32F103RC_btt\U8glib-HAL_ID1932\src/U8glib.h:
+
+C:\Users\vedan\.platformio\packages\framework-arduinoststm32-maple\STM32F1\cores\maple/Print.h:
+
+.pio\libdeps\STM32F103RC_btt\U8glib-HAL_ID1932\src/clib/u8g.h:
+
 Marlin\src\gcode\../module/planner.h:
 
-Marlin\src\gcode\../module/motion.h:
+Marlin\src\gcode\../module/../MarlinCore.h:
 
 Marlin\src\gcode\../module/temperature.h:
 

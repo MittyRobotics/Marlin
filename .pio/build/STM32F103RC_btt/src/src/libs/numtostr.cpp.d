@@ -11,6 +11,7 @@
  Marlin\src\libs\../inc/../core/drivers.h \
  Marlin\src\libs\../inc/../../Configuration_adv.h \
  Marlin\src\libs\../inc/Conditionals_adv.h \
+ Marlin\src\libs\../inc/../HAL/STM32F1/inc/Conditionals_adv.h \
  Marlin\src\libs\../core/utility.h \
  Marlin\src\libs\../core/../core/types.h \
  Marlin\src\libs\../core/../core/millis_t.h
@@ -38,6 +39,8 @@ Marlin\src\libs\../inc/../core/drivers.h:
 Marlin\src\libs\../inc/../../Configuration_adv.h:
 
 Marlin\src\libs\../inc/Conditionals_adv.h:
+
+Marlin\src\libs\../inc/../HAL/STM32F1/inc/Conditionals_adv.h:
 
 Marlin\src\libs\../core/utility.h:
 

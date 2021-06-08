@@ -11,6 +11,7 @@
  Marlin\src\core\../inc/../core/drivers.h \
  Marlin\src\core\../inc/../../Configuration_adv.h \
  Marlin\src\core\../inc/Conditionals_adv.h \
+ Marlin\src\core\../inc/../HAL/STM32F1/inc/Conditionals_adv.h \
  Marlin\src\core\../core/types.h Marlin\src\core\../core/millis_t.h \
  Marlin\src\core\../MarlinCore.h Marlin\src\core\../inc/MarlinConfig.h \
  Marlin\src\core\../inc/../HAL/HAL.h \
@@ -44,6 +45,7 @@
  C:\Users\vedan\.platformio\packages\framework-arduinoststm32-maple\STM32F1\system\libmaple\include/libmaple/adc.h \
  C:\Users\vedan\.platformio\packages\framework-arduinoststm32-maple\STM32F1\system\libmaple/stm32f1/include/series/adc.h \
  C:\Users\vedan\.platformio\packages\framework-arduinoststm32-maple\STM32F1\variants\generic_stm32f103r/board/board.h \
+ C:\Users\vedan\.platformio\packages\framework-arduinoststm32-maple\STM32F1\system\libmaple\stm32f1\include/series/usart.h \
  C:\Users\vedan\.platformio\packages\framework-arduinoststm32-maple\STM32F1\cores\maple/io.h \
  C:\Users\vedan\.platformio\packages\framework-arduinoststm32-maple\STM32F1\cores\maple/bit_constants.h \
  C:\Users\vedan\.platformio\packages\framework-arduinoststm32-maple\STM32F1\cores\maple/pwm.h \
@@ -66,18 +68,25 @@
  C:\Users\vedan\.platformio\packages\framework-arduinoststm32-maple\STM32F1\cores\maple/tone.h \
  C:\Users\vedan\.platformio\packages\framework-arduinoststm32-maple\STM32F1\cores\maple/Arduino.h \
  C:\Users\vedan\.platformio\packages\framework-arduinoststm32-maple\STM32F1\variants\generic_stm32f103r/variant.h \
+ Marlin\src\core\../inc/../HAL/./STM32F1/../shared/progmem.h \
  Marlin\src\core\../inc/../HAL/./STM32F1/../shared/math_32bit.h \
  Marlin\src\core\../inc/../HAL/./STM32F1/../shared/HAL_SPI.h \
  Marlin\src\core\../inc/../HAL/./STM32F1/fastio.h \
  Marlin\src\core\../inc/../HAL/./STM32F1/watchdog.h \
  C:\Users\vedan\.platformio\packages\framework-arduinoststm32-maple\STM32F1\system\libmaple\include/libmaple/iwdg.h \
- Marlin\src\core\../inc/../HAL/./STM32F1/timers.h \
  C:\Users\vedan\.platformio\packages\framework-arduinoststm32-maple\STM32F1\system\libmaple\include/util/atomic.h \
+ Marlin\src\core\../inc/../HAL/./STM32F1/MarlinSerial.h \
+ C:\Users\vedan\.platformio\packages\framework-arduinoststm32-maple\STM32F1\system\libmaple\include/libmaple/usart.h \
+ C:\Users\vedan\.platformio\packages\framework-arduinoststm32-maple\STM32F1\system\libmaple\include/libmaple/ring_buffer.h \
+ C:\Users\vedan\.platformio\packages\framework-arduinoststm32-maple\STM32F1\system\libmaple/stm32f1/include/series/usart.h \
  Marlin\src\core\../inc/../pins/pins.h \
- Marlin\src\core\../inc/../pins/stm32f1/pins_BTT_SKR_MINI_E3_V1_2.h \
- Marlin\src\core\../inc/../pins/stm32f1/pins_BTT_SKR_MINI_E3.h \
+ Marlin\src\core\../inc/../pins/stm32f1/pins_BTT_SKR_MINI_E3_V2_0.h \
+ Marlin\src\core\../inc/../pins/stm32f1/pins_BTT_SKR_MINI_E3_common.h \
+ Marlin\src\core\../inc/../pins/pins_postprocess.h \
+ Marlin\src\core\../inc/../HAL/STM32F1/timers.h \
  Marlin\src\core\../inc/../HAL/STM32F1/spi_pins.h \
  Marlin\src\core\../inc/Conditionals_post.h \
+ Marlin\src\core\../inc/../HAL/STM32F1/inc/Conditionals_post.h \
  Marlin\src\core\../inc/SanityCheck.h \
  Marlin\src\core\../inc/../HAL/STM32F1/inc/SanityCheck.h \
  Marlin\src\core\../inc/../core/language.h \
@@ -112,6 +121,8 @@ Marlin\src\core\../inc/../core/drivers.h:
 Marlin\src\core\../inc/../../Configuration_adv.h:
 
 Marlin\src\core\../inc/Conditionals_adv.h:
+
+Marlin\src\core\../inc/../HAL/STM32F1/inc/Conditionals_adv.h:
 
 Marlin\src\core\../core/types.h:
 
@@ -183,6 +194,8 @@ C:\Users\vedan\.platformio\packages\framework-arduinoststm32-maple\STM32F1\syste
 
 C:\Users\vedan\.platformio\packages\framework-arduinoststm32-maple\STM32F1\variants\generic_stm32f103r/board/board.h:
 
+C:\Users\vedan\.platformio\packages\framework-arduinoststm32-maple\STM32F1\system\libmaple\stm32f1\include/series/usart.h:
+
 C:\Users\vedan\.platformio\packages\framework-arduinoststm32-maple\STM32F1\cores\maple/io.h:
 
 C:\Users\vedan\.platformio\packages\framework-arduinoststm32-maple\STM32F1\cores\maple/bit_constants.h:
@@ -227,6 +240,8 @@ C:\Users\vedan\.platformio\packages\framework-arduinoststm32-maple\STM32F1\cores
 
 C:\Users\vedan\.platformio\packages\framework-arduinoststm32-maple\STM32F1\variants\generic_stm32f103r/variant.h:
 
+Marlin\src\core\../inc/../HAL/./STM32F1/../shared/progmem.h:
+
 Marlin\src\core\../inc/../HAL/./STM32F1/../shared/math_32bit.h:
 
 Marlin\src\core\../inc/../HAL/./STM32F1/../shared/HAL_SPI.h:
@@ -237,19 +252,31 @@ Marlin\src\core\../inc/../HAL/./STM32F1/watchdog.h:
 
 C:\Users\vedan\.platformio\packages\framework-arduinoststm32-maple\STM32F1\system\libmaple\include/libmaple/iwdg.h:
 
-Marlin\src\core\../inc/../HAL/./STM32F1/timers.h:
-
 C:\Users\vedan\.platformio\packages\framework-arduinoststm32-maple\STM32F1\system\libmaple\include/util/atomic.h:
+
+Marlin\src\core\../inc/../HAL/./STM32F1/MarlinSerial.h:
+
+C:\Users\vedan\.platformio\packages\framework-arduinoststm32-maple\STM32F1\system\libmaple\include/libmaple/usart.h:
+
+C:\Users\vedan\.platformio\packages\framework-arduinoststm32-maple\STM32F1\system\libmaple\include/libmaple/ring_buffer.h:
+
+C:\Users\vedan\.platformio\packages\framework-arduinoststm32-maple\STM32F1\system\libmaple/stm32f1/include/series/usart.h:
 
 Marlin\src\core\../inc/../pins/pins.h:
 
-Marlin\src\core\../inc/../pins/stm32f1/pins_BTT_SKR_MINI_E3_V1_2.h:
+Marlin\src\core\../inc/../pins/stm32f1/pins_BTT_SKR_MINI_E3_V2_0.h:
 
-Marlin\src\core\../inc/../pins/stm32f1/pins_BTT_SKR_MINI_E3.h:
+Marlin\src\core\../inc/../pins/stm32f1/pins_BTT_SKR_MINI_E3_common.h:
+
+Marlin\src\core\../inc/../pins/pins_postprocess.h:
+
+Marlin\src\core\../inc/../HAL/STM32F1/timers.h:
 
 Marlin\src\core\../inc/../HAL/STM32F1/spi_pins.h:
 
 Marlin\src\core\../inc/Conditionals_post.h:
+
+Marlin\src\core\../inc/../HAL/STM32F1/inc/Conditionals_post.h:
 
 Marlin\src\core\../inc/SanityCheck.h:
 
