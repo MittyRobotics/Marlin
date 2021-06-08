@@ -56,7 +56,7 @@
 
     // S: Report the current power supply state and exit
     if (parser.seen('S')) {
-      SERIAL_ECHOPGM_P(powersupply_on ? PSTR("PS:1\n") : PSTR("PS:0\n"));
+      serialprintPGM(powersupply_on ? PSTR("PS:1\n") : PSTR("PS:0\n"));
       return;
     }
 
@@ -89,9 +89,8 @@
  */
 void GcodeSuite::M81() {
   thermalManager.disable_all_heaters();
-  planner.finish_and_disable();
-
   print_job_timer.stop();
+  planner.finish_and_disable();
 
   #if HAS_FAN
     thermalManager.zero_fan_speeds();

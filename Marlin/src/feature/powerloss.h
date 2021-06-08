@@ -42,10 +42,6 @@
   #define POWER_LOSS_STATE HIGH
 #endif
 
-#ifndef POWER_LOSS_ZRAISE
-  #define POWER_LOSS_ZRAISE 2
-#endif
-
 //#define DEBUG_POWER_LOSS_RECOVERY
 //#define SAVE_EACH_CMD_MODE
 //#define SAVE_INFO_INTERVAL_MS 0
@@ -56,41 +52,25 @@ typedef struct {
   // Machine state
   xyze_pos_t current_position;
   uint16_t feedrate;
-
   float zraise;
 
   // Repeat information
-  #if ENABLED(GCODE_REPEAT_MARKERS)
-    Repeat stored_repeat;
-  #endif
+  TERN_(GCODE_REPEAT_MARKERS, Repeat stored_repeat);
 
-  #if ENABLED(HAS_HOME_OFFSET)
-    xyz_pos_t home_offset;
-  #endif
-  #if ENABLED(HAS_POSITION_SHIFT)
-    xyz_pos_t position_shift;
-  #endif
-  #if ENABLED(HAS_MULTI_EXTRUDER)
-    uint8_t active_extruder;
-  #endif
+  TERN_(HAS_HOME_OFFSET,    xyz_pos_t home_offset);
+  TERN_(HAS_POSITION_SHIFT, xyz_pos_t position_shift);
+  TERN_(HAS_MULTI_EXTRUDER, uint8_t active_extruder);
 
   #if DISABLED(NO_VOLUMETRICS)
+    bool volumetric_enabled;
     float filament_size[EXTRUDERS];
   #endif
 
-  #if ENABLED(HAS_HOTEND)
-    celsius_t target_temperature[HOTENDS];
-  #endif
-  #if ENABLED(HAS_HEATED_BED)
-    celsius_t target_temperature_bed;
-  #endif
-  #if ENABLED(HAS_FAN)
-    uint8_t fan_speed[FAN_COUNT];
-  #endif
+  TERN_(HAS_HOTEND,     int16_t target_temperature[HOTENDS]);
+  TERN_(HAS_HEATED_BED, int16_t target_temperature_bed);
+  TERN_(HAS_FAN,        uint8_t fan_speed[FAN_COUNT]);
 
-  #if ENABLED(HAS_LEVELING)
-    float fade;
-  #endif
+  TERN_(HAS_LEVELING, float fade);
 
   #if ENABLED(FWRETRACT)
     float retract[EXTRUDERS], retract_hop;
@@ -100,9 +80,7 @@ typedef struct {
   #if ENABLED(MIXING_EXTRUDER)
     //uint_fast8_t selected_vtool;
     //mixer_comp_t color[NR_MIXING_VIRTUAL_TOOLS][MIXING_STEPPERS];
-    #if ENABLED(GRADIENT_MIX)
-      gradient_t gradient;
-    #endif
+    TERN_(GRADIENT_MIX, gradient_t gradient);
   #endif
 
   // SD Filename and position
@@ -117,15 +95,9 @@ typedef struct {
 
   // Misc. Marlin flags
   struct {
-    bool raised:1;                // Raised before saved
     bool dryrun:1;                // M111 S8
     bool allow_cold_extrusion:1;  // M302 P1
-    #if ENABLED(HAS_LEVELING)
-      bool leveling:1;            // M420 S
-    #endif
-    #if DISABLED(NO_VOLUMETRICS)
-      bool volumetric_enabled:1;  // M200 S D
-    #endif
+    TERN_(HAS_LEVELING, bool leveling:1);
   } flag;
 
   uint8_t valid_foot;
@@ -183,18 +155,12 @@ class PrintJobRecovery {
     static inline void cancel() { purge(); IF_DISABLED(NO_SD_AUTOSTART, card.autofile_begin()); }
 
     static void load();
-    static void save(const bool force=ENABLED(SAVE_EACH_CMD_MODE), const float zraise=POWER_LOSS_ZRAISE, const bool raised=false);
+    static void save(const bool force=ENABLED(SAVE_EACH_CMD_MODE), const float zraise=0);
 
     #if PIN_EXISTS(POWER_LOSS)
       static inline void outage() {
-        static constexpr uint8_t OUTAGE_THRESHOLD = 3;
-        static uint8_t outage_counter = 0;
-        if (enabled && READ(POWER_LOSS_PIN) == POWER_LOSS_STATE) {
-          outage_counter++;
-          if (outage_counter >= OUTAGE_THRESHOLD) _outage();
-        }
-        else
-          outage_counter = 0;
+        if (enabled && READ(POWER_LOSS_PIN) == POWER_LOSS_STATE)
+          _outage();
       }
     #endif
 
@@ -213,7 +179,7 @@ class PrintJobRecovery {
     static void write();
 
     #if ENABLED(BACKUP_POWER_SUPPLY)
-      static void retract_and_lift(const_float_t zraise);
+      static void retract_and_lift(const float &zraise);
     #endif
 
     #if PIN_EXISTS(POWER_LOSS)

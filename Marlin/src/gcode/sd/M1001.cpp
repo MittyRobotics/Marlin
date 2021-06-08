@@ -25,9 +25,11 @@
 #if ENABLED(SDSUPPORT)
 
 #include "../gcode.h"
-#include "../../module/planner.h"
 #include "../../module/printcounter.h"
-#include "../../sd/cardreader.h"
+
+#if DISABLED(NO_SD_AUTOSTART)
+  #include "../../sd/cardreader.h"
+#endif
 
 #ifdef SD_FINISHED_RELEASECOMMAND
   #include "../queue.h"
@@ -62,11 +64,6 @@
  * M1001: Execute actions for SD print completion
  */
 void GcodeSuite::M1001() {
-  planner.synchronize();
-
-  // SD Printing is finished when the queue reaches M1001
-  card.flag.sdprinting = card.flag.sdprintdone = false;
-
   // If there's another auto#.g file to run...
   if (TERN(NO_SD_AUTOSTART, false, card.autofile_check())) return;
 
@@ -85,7 +82,7 @@ void GcodeSuite::M1001() {
 
   // Announce SD file completion
   {
-    PORT_REDIRECT(SerialMask::All);
+    PORT_REDIRECT(SERIAL_BOTH);
     SERIAL_ECHOLNPGM(STR_FILE_PRINTED);
   }
 
@@ -95,7 +92,7 @@ void GcodeSuite::M1001() {
       printerEventLEDs.onPrintCompleted();
       TERN_(EXTENSIBLE_UI, ExtUI::onUserConfirmRequired_P(GET_TEXT(MSG_PRINT_DONE)));
       TERN_(HOST_PROMPT_SUPPORT, host_prompt_do(PROMPT_USER_CONTINUE, GET_TEXT(MSG_PRINT_DONE), CONTINUE_STR));
-      wait_for_user_response(SEC_TO_MS(TERN(HAS_LCD_MENU, PE_LEDS_COMPLETED_TIME, 30)));
+      wait_for_user_response(1000UL * TERN(HAS_LCD_MENU, PE_LEDS_COMPLETED_TIME, 30));
       printerEventLEDs.onResumeAfterWait();
     }
   #endif

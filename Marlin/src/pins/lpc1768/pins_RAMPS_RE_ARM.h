@@ -35,7 +35,9 @@
 
 // Numbers in parentheses () are the corresponding mega2560 pin numbers
 
-#include "env_validate.h"
+#if NOT_TARGET(MCU_LPC1768)
+  #error "Oops! Make sure you have the LPC1768 environment selected in your IDE."
+#endif
 
 #define BOARD_INFO_NAME "Re-ARM RAMPS 1.4"
 
@@ -322,10 +324,6 @@
   #define LCD_PINS_RS                      P0_15  // J3-9 & AUX-4 (CS)
   #define LCD_PINS_ENABLE                  P0_18  // J3-10 & AUX-3 (SID, MOSI)
   #define LCD_PINS_D4                      P2_06  // J3-8 & AUX-3 (SCK, CLK)
-
-#elif ENABLED(ZONESTAR_LCD)
-
-  #error "CAUTION! ZONESTAR_LCD on REARM requires wiring modifications. NB. ADCs are not 5V tolerant. Comment out this line to continue."
 
 #elif IS_TFTGLCD_PANEL
 

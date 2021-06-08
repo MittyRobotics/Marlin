@@ -40,7 +40,9 @@
 
 #pragma once
 
-#include "env_validate.h"
+#if NOT_TARGET(STM32F4)
+  #error "Oops! Select an STM32F4 board in 'Tools > Board.'"
+#endif
 
 #ifndef MACHINE_NAME
   #define MACHINE_NAME "STEVAL-3DP001V1"
@@ -173,6 +175,7 @@
 //
 // Misc functions
 //
+#define SDSS                                  16  // PA4    SPI_CS
 #define LED_PIN                               -1  // 9 // PE1 green LED   Heart beat
 #define PS_ON_PIN                             -1
 #define KILL_PIN                              -1
@@ -244,15 +247,12 @@
 
   #ifndef SDIO_SUPPORT
     #define SOFTWARE_SPI                          // Use soft SPI for onboard SD
+    #undef SDSS
     #define SDSS                     SDIO_D3_PIN
     #define SD_SCK_PIN               SDIO_CK_PIN
     #define SD_MISO_PIN              SDIO_D0_PIN
     #define SD_MOSI_PIN             SDIO_CMD_PIN
   #endif
-#endif
-
-#ifndef SDSS
-  #define SDSS                                16  // PA4    SPI_CS
 #endif
 
 // OTG

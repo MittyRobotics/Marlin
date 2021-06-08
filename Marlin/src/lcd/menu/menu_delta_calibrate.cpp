@@ -37,7 +37,7 @@
 #endif
 
 #if ENABLED(EXTENSIBLE_UI)
-  #include "../extui/ui_api.h"
+  #include "../../lcd/extui/ui_api.h"
 #endif
 
 void _man_probe_pt(const xy_pos_t &xy) {
@@ -82,11 +82,12 @@ void _man_probe_pt(const xy_pos_t &xy) {
   }
 
   void _lcd_delta_calibrate_home() {
+    extern const char G28_STR[];
     queue.inject_P(G28_STR);
     ui.goto_screen(_lcd_calibrate_homing);
   }
 
-  void _goto_tower_a(const_float_t a) {
+  void _goto_tower_a(const float &a) {
     xy_pos_t tower_vec = { cos(RADIANS(a)), sin(RADIANS(a)) };
     _man_probe_pt(tower_vec * delta_calibration_radius());
   }
@@ -119,9 +120,7 @@ void lcd_delta_settings() {
 }
 
 void menu_delta_calibrate() {
-  #if ENABLED(DELTA_CALIBRATION_MENU)
-    const bool all_homed = all_axes_homed();  // Acquire ahead of loop
-  #endif
+  TERN_(DELTA_CALIBRATION_MENU, const bool all_homed = all_axes_homed()); // Acquire ahead of loop
 
   START_MENU();
   BACK_ITEM(MSG_MAIN);

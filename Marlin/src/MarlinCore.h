@@ -56,21 +56,20 @@ void minkill(const bool steppers_off=false);
 
 // Global State of the firmware
 enum MarlinState : uint8_t {
-  MF_INITIALIZING = 0,
-  MF_STOPPED,
-  MF_KILLED,
-  MF_RUNNING,
-  MF_SD_COMPLETE,
-  MF_PAUSED,
-  MF_WAITING,
+  MF_INITIALIZING =  0,
+  MF_RUNNING      = _BV(0),
+  MF_PAUSED       = _BV(1),
+  MF_WAITING      = _BV(2),
+  MF_STOPPED      = _BV(3),
+  MF_SD_COMPLETE  = _BV(4),
+  MF_KILLED       = _BV(7)
 };
 
 extern MarlinState marlin_state;
-inline bool IsRunning() { return marlin_state >= MF_RUNNING; }
-inline bool IsStopped() { return marlin_state == MF_STOPPED; }
+inline bool IsRunning() { return marlin_state == MF_RUNNING; }
+inline bool IsStopped() { return marlin_state != MF_RUNNING; }
 
 bool printingIsActive();
-bool printJobOngoing();
 bool printingIsPaused();
 void startOrResumeJob();
 
@@ -109,4 +108,7 @@ bool pin_is_protected(const pin_t pin);
   inline bool kill_state() { return READ(KILL_PIN) == KILL_PIN_STATE; }
 #endif
 
-extern const char M112_KILL_STR[];
+extern const char NUL_STR[], M112_KILL_STR[], G28_STR[], M21_STR[], M23_STR[], M24_STR[],
+                  SP_A_STR[], SP_B_STR[], SP_C_STR[],
+                  SP_P_STR[], SP_T_STR[], SP_X_STR[], SP_Y_STR[], SP_Z_STR[], SP_E_STR[],
+                  X_LBL[], Y_LBL[], Z_LBL[], E_LBL[], SP_X_LBL[], SP_Y_LBL[], SP_Z_LBL[], SP_E_LBL[];
