@@ -64,7 +64,7 @@ typedef struct {
 #ifndef BTC_SAMPLE_COUNT
   #define BTC_SAMPLE_COUNT 10U
 #endif
-#ifndef BTC_SAMPLE_RES
+#ifndef BTC_SAMPLE_STEP
   #define BTC_SAMPLE_RES 5
 #endif
 #ifndef BTC_SAMPLE_START
